@@ -1,0 +1,144 @@
+.car_premium_price li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 11px; }
+
+.daterangepicker.start-date:before, .daterangepicker td.disabled:before {
+  height: 20px;
+  width: 20px;
+  border-radius: 100% !important;
+  transform: translate3d(5px, -3px, 0); }
+
+.daterangepicker .calendar-table th, .daterangepicker .calendar-table td {
+  font-size: 11px; }
+
+.daterangepicker td.start-date {
+  border-radius: 12px 0 0 12px !important;
+  background: #ebf4f8;
+  color: #0a0a0a; }
+
+.daterangepicker td.start-date {
+  border-radius: 12px 0 0 12px !important;
+  background: #ebf4f8;
+  color: #0a0a0a; }
+
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background: #ebf4f8;
+  color: #0a0a0a; }
+
+.daterangepicker td.end-date {
+  border-radius: 0 12px 12px 0 !important; }
+
+.daterangepicker td {
+  border-color: transparent; }
+
+.daterangepicker .calendar-table th, .daterangepicker .calendar-table td {
+  border-color: transparent !important; }
+
+.daterangepicker td.available:hover, .daterangepicker th.available:hover {
+  background: #ebf4f8;
+  color: #0a0a0a;
+  transition: .3s ease; }
+  .daterangepicker td.available:hover span, .daterangepicker th.available:hover span {
+    border-color: #0a0a0a !important;
+    transition: .3s ease; }
+
+.daterangepicker td.available, .daterangepicker th.available {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%; }
+
+.daterangepicker .calendar-table .next span {
+  position: relative;
+  left: -3px; }
+
+.daterangepicker .drp-buttons .btn {
+  padding: 7px 20px;
+  text-transform: uppercase;
+  font-size: 10px; }
+
+.booking_form {
+  transition: .3s ease;
+  position: relative; }
+  .booking_form:before {
+    content: "\e83a";
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate3d(-50%, -50%, 0);
+    font-family: "fl-custom-icon-font";
+    font-size: 20px;
+    z-index: 2;
+    color: #e2b71c;
+    animation: loaderRotate 1s ease-in-out infinite;
+    opacity: 0;
+    visibility: hidden; }
+  .booking_form.loading {
+    opacity: .5; }
+    .booking_form.loading:before {
+      opacity: 1;
+      visibility: visible; }
+
+.revus_booking_prices_contain_grid {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 9;
+  display: flex;
+  justify-content: space-evenly;
+  background: red; }
+  .revus_booking_prices_contain_grid .list-grid-item {
+    display: inline-block;
+    color: #fff;
+    width: 32%;
+    text-align: center;
+    opacity: 0.85;
+    font-size: 12px;
+    padding: 0;
+    border-right: 1px solid rgba(221, 221, 221, 0.3);
+    margin: 8px 0;
+    line-height: 14px; }
+    .revus_booking_prices_contain_grid .list-grid-item:last-child {
+      border-right: 0 !important; }
+
+html .pix-dynamic-content #pixad-listing.list .post-auto-list .post-entry-content .right-car-content .right-car-content-right-wrap {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  width: 170px;
+  text-align: right;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  height: 100%; }
+
+.pix-dynamic-content #pixad-listing.list .post-auto-list .post-entry-content .right-car-content .right-car-content-right-wrap .compare-car-wrap .add-to-compare {
+  bottom: -10px;
+  top: auto; }
+
+.booking-widget-wrap {
+  margin-bottom: 30px; }
+
+.grid .add-to-compare {
+  right: auto !important;
+  top: auto !important; }
+
+.grid .add-to-compare .cmpr-btn-text {
+  transition: color 0.3s ease !important; }
+
+
+/*# sourceMappingURL=new-style.css.map */

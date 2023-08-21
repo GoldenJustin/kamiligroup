@@ -1,0 +1,5 @@
+
+    /* <![CDATA[ */
+    var Youzify = { "unknown_error": "An unknown error occurred. Please try again later.", "slideshow_auto": "1", "slides_height_type": "fixed", "activity_autoloader": "on", "authenticating": "Authenticating...", "security_nonce": "57ed81ec42", "displayed_user_id": "0", "ajax_url": "https:\/\/revus.tm-colors.info\/dealer\/wp-admin\/admin-ajax.php", "save_changes": "Save Changes", "thanks": "OK! Thanks", "confirm": "Confirm", "cancel": "Cancel", "menu_title": "Menu", "gotit": "Got it!", "done": "Done!", "ops": "Oops!", "poll_option": "Option %d", "poll_option_empty": "Sorry, you need to choose at least one option.", "slideshow_speed": "5", "assets": "https:\/\/revus.tm-colors.info\/dealer\/wp-content\/plugins\/youzify\/includes\/public\/assets\/", "youzify_url": "https:\/\/revus.tm-colors.info\/dealer\/wp-content\/plugins\/youzify\/", "live_notifications": "on", "last_notification": "0", "sound_file": "https:\/\/revus.tm-colors.info\/dealer\/wp-content\/plugins\/youzify\/includes\/public\/assets\/youzify-notification-sound", "timeout": "10", "notifications_interval": "30" };
+/* ]]> */
+  
