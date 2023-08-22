@@ -1,495 +1,140 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KAMILI &#8211; GROUP</title>
-  <meta name='robots' content='max-image-preview:large' />
-  <link rel='dns-prefetch' href='https://maps.googleapis.com/' />
-  <link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
-  <link rel="alternate" type="application/rss+xml" title="Revus &raquo; Feed" href="dealer/feed/index.html" />
-  <link rel="alternate" type="application/rss+xml" title="Revus &raquo; Comments Feed"
-    href="dealer/comments/feed/index.html" />
-  <link rel="stylesheet" href="{{ URL::to('assets/css/kamilistyles.css') }}">
-  <link rel='stylesheet' id='wp-block-library-css'
-    href="{{ URL::to('assets/css/dist/block-library/style.css?ver=6.1.3.css') }}" media='all' />
-  <link rel='stylesheet' id='bp-login-form-block-css' href="{{ URL::to('assets/css/login-form.css?ver=10.6.0.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='bp-member-block-css' href="{{ URL::to('assets/css/blocks/member.css%3Fver=10.6.0.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='bp-members-block-css'
-    href="{{ URL::to('assets/css/blocks/members.css%3Fver=10.6.0.css') }}" media='all' />
-  <link rel='stylesheet' id='bp-dynamic-members-block-css'
-    href="{{ URL::to('assets/css/blocks/dynamic-members.css%3Fver=10.6.0.css') }}" media='all' />
-  <link rel='stylesheet' id='bp-latest-activities-block-css'
-    href="{{ URL::to('assets/css/blocks/latest-activities.css%3Fver=10.6.0.css') }}" media='all' />
-  <link rel='stylesheet' id='nk-awb-css' href="{{ URL::to('assets/awb/awb.min.css%3Fver=1.9.4.css') }}" media='all' />
-  <link rel='stylesheet' id='wc-blocks-vendors-style-css'
-    href="{{ URL::to('assets/css/build/wc-blocks-vendors-style.css%3Fver=1670584143.css') }}" media='all' />
-  <link rel='stylesheet' id='wc-blocks-style-css'
-    href="{{ URL::to('assets/css/build/wc-blocks-style.css%3Fver=1670584143.css') }}" media='all' />
-  <link rel='stylesheet' id='classic-theme-styles-css' href="{{ URL::to('assets/css/classic-themes.css%3Fver=1.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='compareaddcss-css' href="{{ URL::to('assets/css/add-compare.css%3Fver=6.1.3.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='contact-form-7-css'
-    href="{{ URL::to('assets/contact-form-7/includes/css/styles.css%3Fver=5.6.4.css') }}" media='all' />
-  <link rel='stylesheet' id='pmpro_frontend-css'
-    href="{{ URL::to('assets/paid-memberships-pro/css/frontend.css%3Fver=2.9.7.css') }}" media='screen' />
-  <link rel='stylesheet' id='pmpro_print-css'
-    href="{{ URL::to('assets/paid-memberships-pro/css/print.css%3Fver=2.9.7.css') }}" media='print' />
-  <link rel='stylesheet' id='select2-css'
-    href="{{ URL::to('assets/paid-memberships-pro/css/select2.min.css%3Fver=4.0.3.css') }}" media='screen' />
-  <link rel='stylesheet' id='pixad-autos-css'
-    href="{{ URL::to('assets/css/pix-auto-deal/assets/css/pixad-autos.css%3Fver=6.1.3.css') }}" media='all' />
-  <link rel='stylesheet' id='magnific-popup-css'
-    href="{{ URL::to('assets/css/pix-auto-deal/assets/css/magnific-popup.css%3Fver=1.0.0.css') }}" media='all' />
-  <link rel='stylesheet' id='woocommerce-layout-css'
-    href="{{ URL::to('assets/css/woocommerce/assets/css/woocommerce-layout.css%3Fver=7.1.1.css') }}" media='all' />
-  <link rel='stylesheet' id='woocommerce-smallscreen-css'
-    href="{{ URL::to('assets/css/woocommerce/assets/css/woocommerce-smallscreen.css%3Fver=7.1.1.css') }}"
-    media='only screen and (max-width: 768px)' />
-  <link rel='stylesheet' id='woocommerce-general-css'
-    href="{{ URL::to('assets/css/woocommerce/assets/css/woocommerce.css%3Fver=7.1.1.css') }}" media='all' />
-  <link rel='stylesheet' id='youzify-customStyle-css'
-    href="{{ URL::to('assets/css/youzify/includes/admin/assets/css/custom-script.css%3Fver=6.1.3.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='youzify-opensans-css'
-    href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600&#038;ver=3.2.5' media='all' />
+        <title>Laravel</title>
 
-  <link rel='stylesheet' id='youzify-css'
-    href="{{ URL::to('assets/css/youzify/includes/public/assets/css/youzify.min.css%3Fver=3.2.5.css')}}" media='all' />
-  <link rel='stylesheet' id='youzify-headers-css'
-    href="{{ URL::to('assets/css/youzify/includes/public/assets/css/youzify-headers.min.css%3Fver=3.2.5.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='dashicons-css' href="{{ URL::to('assets/css/dashicons.css%3Fver=6.1.3.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='youzify-social-css'
-    href="{{ URL::to('assets/css/youzify/includes/public/assets/css/youzify-social.min.css%3Fver=3.2.5.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='youzify-icons-css'
-    href="{{ URL::to('assets/css/youzify/includes/admin/assets/css/all.min.css%3Fver=3.2.5.css') }}" media='all' />
-  <link rel='stylesheet' id='bootstrap-css'
-    href="{{ URL::to('assets/css/revus/assets/css/libs/bootstrap.css%3Fver=4.0.css') }}" media='all' />
-  <link rel='stylesheet' id='font-awesome-css'
-    href="{{ URL::to('assets/css/revus/assets/css/libs/font-awesome.css%3Fver=4.7.css') }}" media='all' />
-  <link rel='stylesheet' id='revus-custom-icon-font-css'
-    href="{{ URL::to('assets/css/revus/assets/css/libs/fl-custom-font.css%3Fver=1.0.css') }}" media='all' />
-  <link rel='stylesheet' id='simple-line-icons-css'
-    href="{{ URL::to('assets/css/revus/assets/css/libs/simple-line-icons.css%3Fver=1.0.css') }}" media='all' />
-  <link rel='stylesheet' id='modal-box-css'
-    href="{{ URL::to('assets/css/revus/assets/css/libs/modal-box.css%3Fver=1.1.0.css') }}" media='all' />
-  <link rel='stylesheet' id='venobox-css'
-    href="{{ URL::to('assets/css/revus/assets/css/libs/venobox.css%3Fver=1.8.6.css') }}" media='all' />
-  <link rel='stylesheet' id='fancybox-css'
-    href="{{ URL::to('assets/css/revus/assets/css/libs/fancybox.css%3Fver=1.0.css') }}" media='all' />
-  <link rel='stylesheet' id='master-css' href="{{ URL::to('assets/css/revus/assets/css/master.css%3Fver=1.8.6.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='revus-general-css'
-    href="{{ URL::to('assets/css/revus/assets/css/sass/general.css%3Fver=1.0.css') }}" media='all' />
-  <link rel='stylesheet' id='revus-vc-page-builder-style-css'
-    href="{{ URL::to('assets/css/revus/assets/css/vc-page-builder-style.css%3Fver=1.0.css') }}" media='all' />
-  <link rel='stylesheet' id='revus-new-style-css'
-    href="{{ URL::to('assets/css/revus/assets/css/new-style.css%3Fver=1.0.css') }}" media='all' />
-  <link rel='stylesheet' id='fl-font-vc-css'
-    href="{{ URL::to('assets/css/fl-themes-helper/vc_custom/icon/icon_assets/css/fl-icon.min.css%3Fver=1.0.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='custom-changer-lang-css-css'
-    href="{{ URL::to('assets/css/fl-themes-helper/widgets/assets/css/change_language.css%3Fver=1.0.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='youzify-membership-css'
-    href="{{ URL::to('assets/css/youzify/includes/public/assets/css/youzify-membership.min.css%3Fver=3.2.5.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='youzify-membership-customStyle-css'
-    href="{{ URL::to('assets/css/youzify/includes/admin/assets/css/custom-script.css%3Fver=6.1.3.css') }}"
-    media='all' />
-  <link rel='stylesheet' id='js_composer_front-css'
-    href="{{ URL::to('assets/css/js_composer/assets/css/js_composer.min.css%3Fver=6.10.0.css') }}" media='all' />
-  <link rel='stylesheet' id='revus-woo-style-css'
-    href="{{ URL::to('assets/css/revus/woocommerce/css/scss/woocommerce.css%3Fver=1.0.css') }}" media='all' />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
-  {{-- custom scripts --}}
-  <script src="{{ asset('assets/js/scriptone.js') }}"></script>
-  <script src="{{ asset('assets/js/scripttwo.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptthree.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptfour.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptfive.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptsix.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptseven.js') }}"></script>
-  <script src="{{ asset('assets/js/scripteight.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptnine.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptten.js') }}"></script>
-  <script src="{{ asset('assets/js/scripteleven.js') }}"></script>
-  <script src="{{ asset('assets/js/scripttwelve.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptthirteen.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptforteen.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptfifteen.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptsixteen.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptseventeen.js') }}"></script>
-  <script src="{{ asset('assets/js/scripteighteen.js') }}"></script>
-  <script src="{{ asset('assets/js/scripttwenty.js') }}"></script>
-  <script src="{{ asset('assets/js/script21.js') }}"></script>
-  <script src="{{ asset('assets/js/script22.js') }}"></script>
-  <script src="{{ asset('assets/js/script23.js') }}"></script>
-  <script src="{{ asset('assets/js/script24.js') }}"></script>
-  <script src="{{ asset('assets/js/script25.js') }}"></script>
-  <script src="{{ asset('assets/js/script26.js') }}"></script>
-  <script src="{{ asset('assets/js/jquery/jquery.js%3Fver=3.6.1') }}"></script>
-  <script src="{{ asset('assets/js/jquery/jquery-migrate.js%3Fver=3.3.2') }}"></script>
-  <script id='bp-confirm-js-extra'>
-    /* <![CDATA[ */
-    var BP_Confirm = { "are_you_sure": "Are you sure?" };
-/* ]]> */
-  </script>
-  <script src="{{ asset('assets/css/buddypress/bp-core/js/confirm.js%3Fver=10.6.0') }}"></script>
-  <script src="{{ asset('assets/css/buddypress/bp-core/js/widget-members.js%3Fver=10.6.0') }}"></script>
-  <script src="{{ asset('assets/css/buddypress/bp-core/js/jquery-query.js%3Fver=10.6.0') }}"></script>
-  <script src="{{ asset('assets/css/buddypress/bp-core/js/vendor/jquery-cookie.js%3Fver=10.6.0') }}"></script>
-  <script src="{{ asset('assets/css/buddypress/bp-core/js/vendor/jquery-scroll-to.js%3Fver=10.6.0') }}"></script>
-  <script src="{{ asset('assets/css/youzify/includes/public/assets/js/buddypress.js%3Fver=10.6.0') }}"></script>
-  <script src="{{ asset('assets/css/compare-cars/js/add-compare.js%3Fver=6.1.3') }}"></script>
-  <script id='ajax_script-js-extra'></script>
-  <script src="{{ asset('assets/css/pix-auto-deal/assets/js/pixad-ajax.js%3Fver=1') }}"></script>
-  <script src="{{ asset('assets/css/pix-auto-deal/assets/js/vendor-libs/jquery.number.min.js%3Fver=1') }}"></script>
-  <script src="{{ asset('assets/css/pix-auto-deal/assets/js/vendor-libs/calculator.js%3Fver=1') }}"></script>
-  <script src="{{ asset('assets/css/woocommerce/assets/js/jquery-blockui/jquery.blockUI.js%3Fver=2.7.0-wc.7.1.1') }}">
-  </script>
-  <script src="{{ asset('assets/css/woocommerce/assets/js/frontend/add-to-cart.js%3Fver=7.1.1') }}"></script>
-  <script src="{{ asset('assets/css/js_composer/assets/js/vendors/woocommerce-add-to-cart.js%3Fver=6.10.0') }}">
-  </script>
-  <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDl9xs4iIG1KcXu8gdnXkdhFbAVJpgKQiM&amp;ver=6.1.3'
-    id='google-maps-api-js'></script>
-  <link rel="https://api.w.org/" href="dealer/wp-json/index.html" />
-  <link rel="alternate" type="application/json" href="dealer/wp-json/wp/v2/pages/18758" />
-  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="dealer/xmlrpc.php%3Frsd" />
-  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="dealer/wp-includes/wlwmanifest.xml" />
-  <meta name="generator" content="WordPress 6.1.3" />
-  <meta name="generator" content="WooCommerce 7.1.1" />
+        <!-- Styles -->
+        <style>
+            /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Figtree, sans-serif;font-feature-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.relative{position:relative}.mx-auto{margin-left:auto;margin-right:auto}.mx-6{margin-left:1.5rem;margin-right:1.5rem}.ml-4{margin-left:1rem}.mt-16{margin-top:4rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.-mt-px{margin-top:-1px}.mr-1{margin-right:0.25rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.h-16{height:4rem}.h-7{height:1.75rem}.h-6{height:1.5rem}.h-5{height:1.25rem}.min-h-screen{min-height:100vh}.w-auto{width:auto}.w-16{width:4rem}.w-7{width:1.75rem}.w-6{width:1.5rem}.w-5{width:1.25rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.scale-100{--tw-scale-x:1;--tw-scale-y:1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.items-center{align-items:center}.justify-center{justify-content:center}.gap-6{gap:1.5rem}.gap-4{gap:1rem}.self-center{align-self:center}.rounded-lg{border-radius:0.5rem}.rounded-full{border-radius:9999px}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity))}.bg-dots-darker{background-image:url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(0,0,0,0.07)'/%3E%3C/svg%3E")}.from-gray-700\/50{--tw-gradient-from:rgb(55 65 81 / 0.5);--tw-gradient-to:rgb(55 65 81 / 0);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-transparent{--tw-gradient-to:rgb(0 0 0 / 0);--tw-gradient-stops:var(--tw-gradient-from), transparent, var(--tw-gradient-to)}.bg-center{background-position:center}.stroke-red-500{stroke:#ef4444}.stroke-gray-400{stroke:#9ca3af}.p-6{padding:1.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-gray-500\/20{--tw-shadow-color:rgb(107 114 128 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.selection\:bg-red-500 *::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.selection\:bg-red-500::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.hover\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.hover\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.focus\:rounded-sm:focus{border-radius:0.125rem}.focus\:outline:focus{outline-style:solid}.focus\:outline-2:focus{outline-width:2px}.focus\:outline-red-500:focus{outline-color:#ef4444}.group:hover .group-hover\:stroke-gray-600{stroke:#4b5563}.z-10{z-index: 10}@media (prefers-reduced-motion: no-preference){.motion-safe\:hover\:scale-\[1\.01\]:hover{--tw-scale-x:1.01;--tw-scale-y:1.01;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}}@media (prefers-color-scheme: dark){.dark\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity))}.dark\:bg-gray-800\/50{background-color:rgb(31 41 55 / 0.5)}.dark\:bg-red-800\/20{background-color:rgb(153 27 27 / 0.2)}.dark\:bg-dots-lighter{background-image:url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(255,255,255,0.07)'/%3E%3C/svg%3E")}.dark\:bg-gradient-to-bl{background-image:linear-gradient(to bottom left, var(--tw-gradient-stops))}.dark\:stroke-gray-600{stroke:#4b5563}.dark\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:shadow-none{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.dark\:ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.dark\:ring-inset{--tw-ring-inset:inset}.dark\:ring-white\/5{--tw-ring-color:rgb(255 255 255 / 0.05)}.dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.group:hover .dark\:group-hover\:stroke-gray-400{stroke:#9ca3af}}@media (min-width: 640px){.sm\:fixed{position:fixed}.sm\:top-0{top:0px}.sm\:right-0{right:0px}.sm\:ml-0{margin-left:0px}.sm\:flex{display:flex}.sm\:items-center{align-items:center}.sm\:justify-center{justify-content:center}.sm\:justify-between{justify-content:space-between}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 1024px){.lg\:gap-8{gap:2rem}.lg\:p-8{padding:2rem}}
+        </style>
+    </head>
+    <body class="antialiased">
+        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
+            @if (Route::has('login'))
+                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
+                    @auth
+                        <a href="{{ url('/home') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Home</a>
+                    @else
+                        <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
 
-
-
-  <link rel="alternate" type="application/json+oembed"
-    href="dealer/wp-json/oembed/1.0/embed%3Furl=https:%252F%252Frevus.tm-colors.info%252Fdealer%252F" />
-  <link rel="alternate" type="text/xml+oembed"
-    href="dealer/wp-json/oembed/1.0/embed%3Furl=https:%252F%252Frevus.tm-colors.info%252Fdealer%252F&amp;format=xml" />
-
-
-
-
-  <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-  <meta name="generator"
-    content="Powered by Slider Revolution 6.6.7 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-  <script src="assets/js/scriptseven.js"></script>
-</head>
-
-<body
-  class="home-page bp-legacy home page-template-default page page-id-18758 theme-revus pmpro-body-has-access woocommerce-no-js youzify-blue-scheme not-logged-in wpb-js-composer js-comp-ver-6.10.0 vc_responsive no-js">
-
-  <!-- Main holder -->
-  <div id="fl-main-holder" class="fl-main-holder-wrapper">
-    <div id="fl-page--preloader">
-      <span class="fl-top-progress">
-        <span class="fl-loader_right"></span>
-        <span class="fl-loader_left"></span>
-      </span>
-
-
-      <div class="fl-top-background-preloader"></div>
-      <div class="fl-bottom-background-preloader"></div>
-      <div class="fl--preloader-progress-bar"><span></span></div>
-      <img alt="Save Preloader image" src="dealer/wp-content/uploads/2019/05/revus-logotype-min.png"
-        class="save_loader_bugs">
-      <div class="fl-preloader--text-percent">
-        <p class="fl--preloader-percent fl-text-title-style">0%</p>
-      </div>
-    </div>
-
-
-
-
-    <!--Header Start-->
-    <header class="fl--header fl-header--navigation fixed-navbar fixed-disable auto-hide-navbar phone-position-right cf"
-      id="fl-header">
-
-
-      <div class="mobile-content-fl">
-
-      </div>
-
-
-
-      <div class="fl-top-header-content fl-font-style-regular cf">
-        <div class="container">
-          <div class="row">
-            <div class="info-container col offset-2">
-              <div class="left-top-header-content col">
-                <div class="header-sidebar">
-                  <div id="custom_html-2" class="widget_text widget widget_custom_html">
-                    <div class="textwidget custom-html-widget"><a
-                        href="mailto:support@domain.com">info@kamiligroup.com</a></div>
-                  </div>
-                  <div id="custom_html-5" class="widget_text widget widget_custom_html">
-                    <div class="textwidget custom-html-widget">Mon to Fri : 9:00am to 6:00pm</div>
-                  </div>
-                  <div id="custom_html-6" class="widget_text widget widget_custom_html">
-                    <div class="textwidget custom-html-widget">Tegeta, Dar Es Salaam</div>
-                  </div>
-
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
+                        @endif
+                    @endauth
                 </div>
-              </div>
-              <div class="right-top-header-content">
-                <div class="header-sidebar">
-                  <div id="custom_html-3" class="widget_text widget widget_custom_html">
-                    <div class="textwidget custom-html-widget"><a href="javascript:" onclick="jivo_api.open()"
-                        class="header-btn fl-font-style-lighter-than"><i class="fa fa-comment" aria-hidden="true"></i>
-                        Direct mail us</a></div>
-                  </div>
+            @endif
+
+            <div class="max-w-7xl mx-auto p-6 lg:p-8">
+                <div class="flex justify-center">
+                    <svg viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto bg-gray-100 dark:bg-gray-900">
+                        <path d="M61.8548 14.6253C61.8778 14.7102 61.8895 14.7978 61.8897 14.8858V28.5615C61.8898 28.737 61.8434 28.9095 61.7554 29.0614C61.6675 29.2132 61.5409 29.3392 61.3887 29.4265L49.9104 36.0351V49.1337C49.9104 49.4902 49.7209 49.8192 49.4118 49.9987L25.4519 63.7916C25.3971 63.8227 25.3372 63.8427 25.2774 63.8639C25.255 63.8714 25.2338 63.8851 25.2101 63.8913C25.0426 63.9354 24.8666 63.9354 24.6991 63.8913C24.6716 63.8838 24.6467 63.8689 24.6205 63.8589C24.5657 63.8389 24.5084 63.8215 24.456 63.7916L0.501061 49.9987C0.348882 49.9113 0.222437 49.7853 0.134469 49.6334C0.0465019 49.4816 0.000120578 49.3092 0 49.1337L0 8.10652C0 8.01678 0.0124642 7.92953 0.0348998 7.84477C0.0423783 7.8161 0.0598282 7.78993 0.0697995 7.76126C0.0884958 7.70891 0.105946 7.65531 0.133367 7.6067C0.152063 7.5743 0.179485 7.54812 0.20192 7.51821C0.230588 7.47832 0.256763 7.43719 0.290416 7.40229C0.319084 7.37362 0.356476 7.35243 0.388883 7.32751C0.425029 7.29759 0.457436 7.26518 0.498568 7.2415L12.4779 0.345059C12.6296 0.257786 12.8015 0.211853 12.9765 0.211853C13.1515 0.211853 13.3234 0.257786 13.475 0.345059L25.4531 7.2415H25.4556C25.4955 7.26643 25.5292 7.29759 25.5653 7.32626C25.5977 7.35119 25.6339 7.37362 25.6625 7.40104C25.6974 7.43719 25.7224 7.47832 25.7523 7.51821C25.7735 7.54812 25.8021 7.5743 25.8196 7.6067C25.8483 7.65656 25.8645 7.70891 25.8844 7.76126C25.8944 7.78993 25.9118 7.8161 25.9193 7.84602C25.9423 7.93096 25.954 8.01853 25.9542 8.10652V33.7317L35.9355 27.9844V14.8846C35.9355 14.7973 35.948 14.7088 35.9704 14.6253C35.9792 14.5954 35.9954 14.5692 36.0053 14.5405C36.0253 14.4882 36.0427 14.4346 36.0702 14.386C36.0888 14.3536 36.1163 14.3274 36.1375 14.2975C36.1674 14.2576 36.1923 14.2165 36.2272 14.1816C36.2559 14.1529 36.292 14.1317 36.3244 14.1068C36.3618 14.0769 36.3942 14.0445 36.4341 14.0208L48.4147 7.12434C48.5663 7.03694 48.7383 6.99094 48.9133 6.99094C49.0883 6.99094 49.2602 7.03694 49.4118 7.12434L61.3899 14.0208C61.4323 14.0457 61.4647 14.0769 61.5021 14.1055C61.5333 14.1305 61.5694 14.1529 61.5981 14.1803C61.633 14.2165 61.6579 14.2576 61.6878 14.2975C61.7103 14.3274 61.7377 14.3536 61.7551 14.386C61.7838 14.4346 61.8 14.4882 61.8199 14.5405C61.8312 14.5692 61.8474 14.5954 61.8548 14.6253ZM59.893 27.9844V16.6121L55.7013 19.0252L49.9104 22.3593V33.7317L59.8942 27.9844H59.893ZM47.9149 48.5566V37.1768L42.2187 40.4299L25.953 49.7133V61.2003L47.9149 48.5566ZM1.99677 9.83281V48.5566L23.9562 61.199V49.7145L12.4841 43.2219L12.4804 43.2194L12.4754 43.2169C12.4368 43.1945 12.4044 43.1621 12.3682 43.1347C12.3371 43.1097 12.3009 43.0898 12.2735 43.0624L12.271 43.0586C12.2386 43.0275 12.2162 42.9888 12.1887 42.9539C12.1638 42.9203 12.1339 42.8916 12.114 42.8567L12.1127 42.853C12.0903 42.8156 12.0766 42.7707 12.0604 42.7283C12.0442 42.6909 12.023 42.656 12.013 42.6161C12.0005 42.5688 11.998 42.5177 11.9931 42.4691C11.9881 42.4317 11.9781 42.3943 11.9781 42.3569V15.5801L6.18848 12.2446L1.99677 9.83281ZM12.9777 2.36177L2.99764 8.10652L12.9752 13.8513L22.9541 8.10527L12.9752 2.36177H12.9777ZM18.1678 38.2138L23.9574 34.8809V9.83281L19.7657 12.2459L13.9749 15.5801V40.6281L18.1678 38.2138ZM48.9133 9.14105L38.9344 14.8858L48.9133 20.6305L58.8909 14.8846L48.9133 9.14105ZM47.9149 22.3593L42.124 19.0252L37.9323 16.6121V27.9844L43.7219 31.3174L47.9149 33.7317V22.3593ZM24.9533 47.987L39.59 39.631L46.9065 35.4555L36.9352 29.7145L25.4544 36.3242L14.9907 42.3482L24.9533 47.987Z" fill="#FF2D20"/>
+                    </svg>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="fl-bottom-header-content">
-        <div class="container">
-          <div class="row">
-            <div class="fl-navigation-container col-12 cf">
-              <!-- Start Logo-->
-              <div class="fl--logo-container">
-                <a href="dealer.html">
+                <div class="mt-16">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+                        <a href="https://laravel.com/docs" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
+                            <div>
+                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                                    </svg>
+                                </div>
 
-                  <img src="{{ asset('assets/images/uploads/2019/05/revus-logotype-min.png') }}" alt="Site Logotype"
-                    class="img-logotype">
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Documentation</h2>
 
-                </a>
-              </div>
-              <!--Logo End-->
+                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                                    Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
+                                </p>
+                            </div>
 
-              <!-- Nav Menu Start-->
-              <nav class="fl-mega-menu nav-menu">
-                <ul id="menu-main-menu" class="menu">
-                  <li id="menu-item-18768" class="nav-item menu-item-depth-0 current-menu-item "><a href="dealer.html"
-                      class="menu-link main-menu-link item-title"><i class="disable"></i>Home</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            </svg>
+                        </a>
 
-                  </li>
-                  <li id="menu-item-7" class="nav-item menu-item-depth-0  "><a href=""
-                      class="menu-link main-menu-link item-title"><i class="disable"></i>About us</a>
+                        <a href="https://laracasts.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
+                            <div>
+                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
+                                        <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
+                                    </svg>
+                                </div>
 
-                  </li>
-                  <li id="menu-item-18072" class="nav-item menu-item-depth-0 "><a
-                      href="dealer/index.html%3Fp=17703.html" class="menu-link main-menu-link item-title"><i
-                        class="disable"></i>services</a></li>
-                  <li id="menu-item-18489" class="nav-item menu-item-depth-0 "><a href="dealer/blog/page/1/index.html"
-                      class="menu-link main-menu-link item-title"><i class="disable"></i>projects</a>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laracasts</h2>
 
-                  </li>
-                  <li id="menu-item-18489" class="nav-item menu-item-depth-0 "><a href="dealer/blog/page/1/index.html"
-                      class="menu-link main-menu-link item-title"><i class="disable"></i>Clients</a>
+                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
+                                </p>
+                            </div>
 
-                  </li>
-                  <li id="menu-item-18490" class="nav-item menu-item-depth-0 "><a
-                      href="dealer/index.html%3Fp=17543.html" class="menu-link main-menu-link item-title"><i
-                        class="disable"></i>core values</a></li>
-                  <li id="menu-item-18489" class="nav-item menu-item-depth-0 "><a href="dealer/blog/page/1/index.html"
-                      class="menu-link main-menu-link item-title"><i class="disable"></i>Our Team</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            </svg>
+                        </a>
 
-                  </li>
-                  <li id="menu-item-18489" class="nav-item menu-item-depth-0 "><a href="dealer/blog/page/1/index.html"
-                      class="menu-link main-menu-link item-title"><i class="disable"></i>Contact Us</a>
+                        <a href="https://laravel-news.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
+                            <div>
+                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
+                                    </svg>
+                                </div>
 
-                  </li>
-                </ul>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laravel News</h2>
 
-              </nav>
-              <!-- Nav Menu End-->
+                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
+                                </p>
+                            </div>
 
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            </svg>
+                        </a>
 
+                        <div class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
+                            <div>
+                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
+                                    </svg>
+                                </div>
 
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</h2>
 
-              <div class="fl--navigation-icon-container">
-
-
-
-
-
-
-                <!--Mobile menu bars-->
-                <div class="fl--hamburger-menu closed header-icon">
-                  <div class="fl-flipper-icon">
-                    <div class="fl-front-content">
-                      <span></span>
-                      <span></span>
-                      <span></span>
+                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Forge</a>, <a href="https://vapor.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Vapor</a>, <a href="https://nova.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Nova</a>, and <a href="https://envoyer.io" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Telescope</a>, and more.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="fl-back-content">
-                      <span class="fl-close-icon"></span>
-                    </div>
-                  </div>
                 </div>
-                <!--Mobile menu bars end-->
-              </div>
+
+                <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
+                    <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">
+                        <div class="flex items-center gap-4">
+                            <a href="https://github.com/sponsors/taylorotwell" class="group inline-flex items-center hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="-mt-px mr-1 w-5 h-5 stroke-gray-400 dark:stroke-gray-600 group-hover:stroke-gray-600 dark:group-hover:stroke-gray-400">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                                </svg>
+                                Sponsor
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="ml-4 text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
+                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </header>
-    <div class="header-padding"></div>
-    <!--Header End-->
-
-
-    <!--Main Start-->
-    <div class="fl_main">
-      <!--Main content Start-->
-      <div class="fl_content_story container">
-        <!--Sidebar End-->
-        <div class="fl_content page-template content">
-          <div class="fl-content-wrapper single-page-wrapper">
-            <!--Content Start-->
-
-
-
-            @include('layouts.video')
-            @include('layouts.karibu')
-            @include('layouts.client')
-            @include('layouts.services')
-            @include('layouts.projects')
-            @include('layouts.core-values')
-            @include('layouts.decor-image')
-            @include('layouts.team')
-            @include('layouts.review')
-            @include('layouts.uniqueness')
-
-
-            @include('layouts.gallery')
-
-
-          </div><!-- #post-18758 -->
-
-          <!--Content End-->
-          <!--Comment Start-->
-          <!--Comment End-->
-        </div>
-      </div>
-    </div>
-    <!--Main content End-->
-
-
-  </div>
-  <!--Main End-->
-  <!--Footer Start-->
-  @include('layouts.footer')
-
-  @include('layouts.sidebar')
-
-
-  <!-- Mobile Menu -->
-  <!-- Mobile Menu end -->
-  </div>
-  <!-- Main holder End-->
-
-
-  <!-- Memberships powered by Paid Memberships Pro v2.9.7. -->
-  {{-- <script type="text/html" id="wpb-modifications"></script> --}}
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400%7CMontserrat:700%2C600%2C500&display=swap"
-    rel="stylesheet" property="stylesheet" media="all">
-
-
-
-  <link rel='stylesheet' id='flicon-css'
-    href="{{ URL::to('assets/css/fl-themes-helper/vc_custom/icon/icon_assets/css/fl-icon.css%3Fver=6.1.3.css') }}"
-    media='all' />
-  <style id='core-block-supports-inline-css'>
-    /**
- * Core styles: block-supports
- */
-  </style>
-  <link rel='stylesheet' id='rs-plugin-settings-css'
-    href="{{ URL::to('assets/css/revslider/public/assets/css/rs6.css%3Fver=6.6.7.css') }}" media='all' />
-  <!-- <style id='rs-plugin-settings-inline-css'>
-    #rs-demo-id {}
-  </style> -->
-  <script src="{{ asset('assets/css/advanced-backgrounds/assets/vendor/jarallax/jarallax.min.js%3Fver=2.0.4') }}">
-  </script>
-  <script src="{{ asset('assets/css/advanced-backgrounds/assets/vendor/jarallax/jarallax-video.min.js%3Fver=2.0.4') }}">
-  </script>
-  <script src="{{ asset('assets/css/advanced-backgrounds/assets/awb/awb.min.js%3Fver=1.9.4') }}">
-  </script>
-  <script src="{{ asset('assets/js/comment-reply.js%3Fver=6.1.3') }}" id='comment-reply-js'></script>
-  <script src="{{ asset('assets/css/contact-form-7/includes/swv/js/index.js%3Fver=5.6.4') }}"></script>
-  <script src="{{ asset('assets/css/contact-form-7/includes/js/index.js%3Fver=5.6.4') }}">
-  </script>
-  <script src="{{ asset('assets/css/fl-themes-helper/function/like/js/likes-public.js') }}"></script>
-  <script src="{{ asset('assets/css/paid-memberships-pro/js/select2.min.js%3Fver=4.0.3') }}"></script>
-  <script src="{{ asset('assets/css/pix-auto-deal/assets/js/jquery.magnific-popup.min.js%3Fver=1.0.0') }}"></script>
-  <script src="{{ asset('assets/css/revslider/public/assets/js/rbtools.min.js%3Fver=6.6.7' ) }}" defer async></script>
-  <script src="{{ asset('assets/css/revslider/public/assets/js/rs6.min.js%3Fver=6.6.7') }}" defer async>
-  </script>
-  <script src="{{ asset('asset/css/woocommerce/assets/js/js-cookie/js.cookie.js%3Fver=2.1.4-wc.7.1.1') }}"></script>
-  <script src="{{ asset('asset/css/woocommerce/assets/js/frontend/woocommerce.js%3Fver=7.1.1') }}"></script>
-  <script src="{{ asset('asset/css/woocommerce/assets/js/frontend/cart-fragments.js%3Fver=7.1.1') }}"></script>
-  <script src="{{ asset('assets/js/dist/vendor/regenerator-runtime.js%3Fver=0.13.9') }}" id='regenerator-runtime-js'>
-  </script>
-  <script src="{{ asset('assets/js/dist/vendor/wp-polyfill.js%3Fver=3.15.0') }}" id='wp-polyfill-js'></script>
-  <script src="{{ asset('assets/js/dist/hooks.js%3Fver=3ad9b2919ff3fc96ce63') }}" id='wp-hooks-js'></script>
-  <script src="{{ asset('assets/js/dist/i18n.js%3Fver=0343553cc8c879477a4a') }}" id='wp-i18n-js'></script>
-  <script src="{{ asset('assets/css/youzify/includes/public/assets/js/youzify.min.js%3Fver=3.2.5') }}" id='youzify-js'>
-  </script>
-  <script src="{{ asset('assets/js/imagesloaded.min.js%3Fver=4.1.4') }}" id='imagesloaded-js'></script>
-  <script src="{{ asset('assets/js/jquery/ui/core.js%3Fver=1.13.2') }}" id='jquery-ui-core-js'></script>
-
-
-
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/bootstrap-bundle.js%3Fver=4.0') }}"
-    id='bootstrap-bundle-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/slick.js%3Fver=1.8.0') }}" id='slick-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/jelect.js%3Fver=1.0') }}" id='custom-select-js'>
-  </script>
-  <script src="{{ asset('assets/css/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js%3Fver=6.10.0') }}"
-    id='isotope-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/cookie.js%3Fver=1.4.1') }}" id='cookie-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/count-to.js%3Fver=1.0') }}" id='count-to-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/waypoints.js%3Fver=4.0.1') }}" id='waypoints-js'>
-  </script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/mega-menu.js%3Fver=1.0') }}" id='mega-menu-js'>
-  </script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/theia-sticky-sidebar.js%3Fver=1.7.0') }}"
-    id='theia-sticky-sidebar-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/TweenMax.js%3Fver=2.0.2') }}" id='tween-max-js'>
-  </script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/velocity.js%3Fver=1.5.0') }}" id='velocity-js'>
-  </script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/velocity-ui-pack.js%3Fver=5.0.4') }}"
-    id='velocity-pack-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/nouislider.js%3Fver=8.5.1') }}" id='nouislider-js'>
-  </script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/w-numb.js%3Fver=1.0') }}" id='w-numb-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/venobox.js%3Fver=1.0') }}" id='venobox-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/fancybox.js%3Fver=3.5.7') }}" id='fancybox-js'>
-  </script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/mega-menu/mega-menu-start.js%3Fver=1.0') }}"
-    id='mega-menu-start-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/revus-page-loader.js%3Fver=1.0') }}"
-    id='revus-page-loader-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/vendors-libs/hotspot.js%3Fver=1.0') }}" id='hotspot-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/scripts.js%3Fver=1.0') }}" id='revus-custom-scripts-js'></script>
-  <script src="{{ asset('assets/css/revus/assets/js/woo-scripts.js%3Fver=1.0') }}" id='revus-woo-custom-js'></script>
-  <script src="{{ asset('assets/css/fl-themes-helper/vc_custom/js/vc_custom.js') }}" id='fl-vc-custom-js'></script>
-  <script src="{{ asset('assets/css/fl-themes-helper/widgets/assets/js/change_language.js') }}"
-    id='custom-changer-lang-js-js'></script>
-  <script src="{{ asset('assets/js/heartbeat.js%3Fver=6.1.3') }}" id='heartbeat-js'></script>
-  <script src="{{ asset('assets/css/fl-themes-helper/function/assets/js/flthemes-ajax.js%3Fver=6.1.3') }}"
-    id='flthemes_ajax-js'></script>
-  <script src="{{ asset('assets/css/js_composer/assets/js/dist/js_composer_front.min.js%3Fver=6.10.0') }}"
-    id='wpb_composer_front_js-js'></script>
-  <script src="{{ asset('assets/css/fl-themes-helper/assets/js/load-more/cars-load-more.js%3Fver=6.1.3') }}"
-    id='fl-load-more-car-vc-js'></script>
-  <script defer src="{{ asset('assets/css/mailchimp-for-wp/assets/js/forms.js%3Fver=4.8.12') }}"
-    id='mc4wp-forms-api-js'></script>
-
-</body>
-
+    </body>
 </html>
-<!--Footer End-->

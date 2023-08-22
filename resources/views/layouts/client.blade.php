@@ -1,5 +1,5 @@
 <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
-              class="vc_row wpb_row vc_row-fluid vc_custom_1602471048641 fl-helping-row-responsive-64dc649be4e42-7443 bg-dark-color vc_row-no-padding">
+              class="vc_row wpb_row vc_row-fluid vc_custom_1602471048641 fl-helping-row-responsive-64dc649be4e42-7443 bg-light-color vc_row-no-padding">
               <div class="wpb_column vc_column_container vc_col-sm-12">
                 <div class=" vc_column-inner  ">
                   <div class="wpb_wrapper">
@@ -37,7 +37,7 @@
                       <div class="cars-slider fl-animated-item-velocity slider_style_two"
                         data-animate-type="slideLeftIn">
 
-                        <article class="slider-car-item">
+                        <article class="slider-car-item" style="margin-right: 100px">
                           <!--article start-->
 
                           <div class="entry-auto-grid-wrap">
@@ -60,7 +60,7 @@
                         </article>
                         <!--article end-->
 
-                        <article class="slider-car-item">
+                        <article class="slider-car-item" style="margin-right: 100px">
                           <!--article start-->
 
                           <div class="entry-auto-grid-wrap">
@@ -83,7 +83,7 @@
                         </article>
                         <!--article end-->
 
-                        <article class="slider-car-item">
+                        <article class="slider-car-item" style="margin-right: 100px">
                           <!--article start-->
 
                           <div class="entry-auto-grid-wrap">
@@ -106,7 +106,7 @@
                         </article>
                         <!--article end-->
 
-                        <article class="slider-car-item">
+                        <article class="slider-car-item" style="margin-right: 100px">
                           <!--article start-->
 
                           <div class="entry-auto-grid-wrap">
@@ -129,7 +129,7 @@
                         </article>
                         <!--article end-->
 
-                        <article class="slider-car-item">
+                        <article class="slider-car-item" style="margin-right: 100px">
                           <!--article start-->
 
                           <div class="entry-auto-grid-wrap">

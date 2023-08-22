@@ -29,8 +29,10 @@
                     <li id="menu-item-17949" class="nav-item menu-item-depth-0 "><a
                             href="dealer/index.html%3Fp=17543.html" class="menu-link main-menu-link item-title"><i
                                 class="disable"></i>Our Team</a></li>
-                    <li id="menu-item-17945" class="nav-item menu-item-depth-0 has-submenu "><a href="dealer.html#"
-                            class="menu-link main-menu-link item-title"><i class="disable"></i>Contact Us</a></li>
+                                {{-- <li id="menu-item-18489" class="nav-item menu-item-depth-0 "><a href="{{ route('index') }}"
+                                    class="menu-link main-menu-link item-title"><i class="disable"></i>Contact Us</a>
+                          
+                                </li> --}}
                 </ul>
             </nav>
             <!--Mobile Nav menu End-->
