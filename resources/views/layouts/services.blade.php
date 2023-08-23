@@ -205,7 +205,7 @@
                                     <div class="    wpb_single_image vc_align_left ">
                                       <div class="wpb_wrapper vc_figure">
                                         <div class="vc_single_image-wrapper     "><img width="540" height="320"
-                                            src="dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min.jpg"
+                                            src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-2-min.jpg')}}"
                                             class="vc_single_image-img attachment-full" alt="" decoding="async"
                                             loading="lazy" title="Tabs-image-style-two-2-min" {{--
                                             srcset="dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min.jpg 540w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min-300x178.jpg 300w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min-500x296.jpg 500w"
@@ -335,11 +335,12 @@
                                     <div class="    wpb_single_image vc_align_left ">
                                       <div class="wpb_wrapper vc_figure">
                                         <div class="vc_single_image-wrapper     "><img width="540" height="320"
-                                            src="dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min.jpg"
+                                            src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-5-min.jpg')}}"
                                             class="vc_single_image-img attachment-full" alt="" decoding="async"
                                             loading="lazy" title="Tabs-image-style-two-5-min"
-                                            srcset="dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min.jpg 540w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min-300x178.jpg 300w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min-500x296.jpg 500w"
-                                            sizes="(max-width: 540px) 100vw, 540px" /></div>
+                                            {{-- srcset="dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min.jpg 540w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min-300x178.jpg 300w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min-500x296.jpg 500w"
+                                            sizes="(max-width: 540px) 100vw, 540px"  --}}
+                                            /></div>
                                       </div>
                                     </div>
                                     <div

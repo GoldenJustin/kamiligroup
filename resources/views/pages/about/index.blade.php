@@ -10,7 +10,7 @@
           <div class="breadcrumbs-heading">
             <!-- .breadcrumbs -->
             <div class="breadcrumbs"><span><a rel="v:url" property="v:title"
-                  href="../../main.html">Home</a></span><span class="breadcrumbs-delimiter"><i
+                  href="{{url ('home')}}">Home</a></span><span class="breadcrumbs-delimiter"><i
                   class="fa fa-long-arrow-right"></i></span><span class="current">About</span></div>
             <!-- .breadcrumbs -->
           </div>
@@ -19,7 +19,7 @@
     </div>
   </div>
 </div>
-
+@include('layouts.gallery')
 
 
 @endsection
