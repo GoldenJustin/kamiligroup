@@ -16,9 +16,9 @@
                     <li id="menu-item-17932" class="nav-item menu-item-depth-0"><a href="about"
                             class="menu-link main-menu-link item-title"><i class="disable"></i>About us</a></li>
                     <li id="menu-item-17944" class="nav-item menu-item-depth-0 "><a
-                            href="services" class="menu-link main-menu-link item-title"><i
+                            href="{{url('services')}}" class="menu-link main-menu-link item-title"><i
                                 class="disable"></i>Services</a></li>
-                    <li id="menu-item-17945" class="nav-item menu-item-depth-0"><a href="dealer.html#"
+                    <li id="menu-item-17945" class="nav-item menu-item-depth-0"><a href="{{url('projects')}}"
                             class="menu-link main-menu-link item-title"><i class="disable"></i>Projects</a></li>
                     <li id="menu-item-17945" class="nav-item menu-item-depth-0"><a href="{{ url('clients') }}"
                             class="menu-link main-menu-link item-title"><i class="disable"></i>Clients</a></li>

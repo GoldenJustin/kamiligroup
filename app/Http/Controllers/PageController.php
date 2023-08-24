@@ -12,15 +12,32 @@ class PageController extends Controller
         return view('index');
     }
 
-    public function contact()
+    public function gallery()
     {
-        return view('pages/contacts/index');
+        return view('pages/gallery/index');
     }
 
     public function about()
     {
         return view('pages/about/index');
     }
+
+    public function projects()
+    {
+        return view('pages/projects/index');
+    }
+
+    public function services()
+    {
+        return view('pages/services/index');
+    }
+
+    public function contact()
+    {
+        return view('pages/contacts/index');
+    }
+
+   
 
     public function values()
     {

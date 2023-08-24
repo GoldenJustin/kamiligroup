@@ -10,9 +10,9 @@
 
       </li>
       <li id="menu-item-18072" class="nav-item menu-item-depth-0 "><a
-          href="dealer/index.html%3Fp=17703.html" class="menu-link main-menu-link item-title"><i
+          href="{{url('services')}}" class="menu-link main-menu-link item-title"><i
             class="disable"></i>services</a></li>
-      <li id="menu-item-18489" class="nav-item menu-item-depth-0 "><a href="{{ url('project') }}"
+      <li id="menu-item-18489" class="nav-item menu-item-depth-0 "><a href="{{ url('projects') }}"
           class="menu-link main-menu-link item-title"><i class="disable"></i>projects</a>
 
       </li>

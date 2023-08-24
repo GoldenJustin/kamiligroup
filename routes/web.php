@@ -24,10 +24,13 @@ Route::get('/', function () {
 Route::get('home/', [PageController::class, 'home'] );
 
 Route::get('about/', [PageController::class, 'about'] );
+Route::get('services/', [PageController::class, 'services'] );
 
+Route::get('gallery/', [PageController::class, 'gallery'] );
 Route::get('contact/', [PageController::class, 'contact'] );
 Route::get('values/', [PageController::class, 'values'] );
 Route::get('team/', [PageController::class, 'team'] );
 Route::get('clients/', [PageController::class, 'clients'] );
+Route::get('projects/', [PageController::class, 'projects'] );
 
 

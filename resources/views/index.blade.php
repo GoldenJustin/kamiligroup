@@ -7,8 +7,8 @@
 @include('layouts.projects')
 @include('layouts.core-values')
 @include('layouts.decor-image')
-@include('layouts.team')
-@include('layouts.review')
+{{-- @include('layouts.team') --}}
+{{-- @include('layouts.review') --}}
 @include('layouts.uniqueness')
 @include('layouts.gallery')
 @endsection

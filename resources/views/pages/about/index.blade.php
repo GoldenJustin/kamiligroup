@@ -19,6 +19,7 @@
     </div>
   </div>
 </div>
+@include('layouts.review')
 @include('layouts.gallery')
 
 

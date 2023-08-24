@@ -10,8 +10,7 @@
   <link rel='dns-prefetch' href='https://maps.googleapis.com/' />
   <link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
   <link rel="alternate" type="application/rss+xml" title="Revus &raquo; Feed" href="dealer/feed/index.html" />
-  <link rel="alternate" type="application/rss+xml" title="Revus &raquo; Comments Feed"
-    href="dealer/comments/feed/index.html" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ URL::to('assets/css/kamilistyles.css') }}">
   <link rel='stylesheet' id='wp-block-library-css'
     href="{{ URL::to('assets/css/dist/block-library/style.css?ver=6.1.3.css') }}" media='all' />
@@ -113,6 +112,9 @@
     href="{{ URL::to('assets/css/fl-themes-helper/vc_custom/icon/icon_assets/css/linearicons.min.css%3Fver=6.1.3.css') }}" media='all' />
 
 
+
+
+
   {{-- custom scripts --}}
 
   <script src="{{ asset('assets/js/scriptone.js') }}"></script>
@@ -204,7 +206,7 @@
       <div class="fl-top-background-preloader"></div>
       <div class="fl-bottom-background-preloader"></div>
       <div class="fl--preloader-progress-bar"><span></span></div>
-      <img alt="Save Preloader image" src="dealer/wp-content/uploads/2019/05/revus-logotype-min.png"
+      <img alt="Save Preloader image" src="{{ asset('assets/images/uploads/2019/05/revus-logotype-min.png')}}"
         class="save_loader_bugs">
       <div class="fl-preloader--text-percent">
         <p class="fl--preloader-percent fl-text-title-style">0%</p>
@@ -247,9 +249,9 @@
               <div class="right-top-header-content">
                 <div class="header-sidebar">
                   <div id="custom_html-3" class="widget_text widget widget_custom_html">
-                    <div class="textwidget custom-html-widget"><a href="javascript:" onclick="jivo_api.open()"
-                        class="header-btn fl-font-style-lighter-than"><i class="fa fa-comment" aria-hidden="true"></i>
-                        Direct mail us</a></div>
+                    <div class="textwidget custom-html-widget"><a href="{{url('gallery')}}"
+                        class="header-btn fl-font-style-lighter-than"><i class="fas fa-images" aria-hidden="true"></i>
+                        View Our Gallery</a></div>
                   </div>
                 </div>
               </div>
@@ -364,6 +366,15 @@
  * Core styles: block-supports
  */
   </style>
+
+
+<link rel="stylesheet" href="{{ asset('assets/css/CbOKOLAGx4De.css')}}" media="all">
+
+
+
+
+
+
   <link rel='stylesheet' id='rs-plugin-settings-css'
     href="{{ URL::to('assets/css/revslider/public/assets/css/rs6.css%3Fver=6.6.7.css') }}" media='all' />
   <!-- <style id='rs-plugin-settings-inline-css'>
