@@ -1,1 +1,0 @@
-!function(e,n){e.addEventListener("scroll",(function(){const t=e.scrollY/(n.body.clientHeight-e.innerHeight)*360;n.documentElement.style.setProperty("--gradient-degree",t+"deg")}))}(window,document);

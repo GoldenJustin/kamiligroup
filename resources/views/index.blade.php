@@ -1,7 +1,8 @@
 @extends('layouts.main')
 @section('content')
-@include('layouts.video')
+@include('layouts.home-banner')
 @include('layouts.karibu')
+
 @include('layouts.client')
 @include('layouts.services')
 @include('layouts.projects')

@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>KAMILI &#8211; GROUP</title>
+  <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/uploads/2019/05/revus-logotype-min.png') }}" class="favicon">
+
+
   <meta name='robots' content='max-image-preview:large' />
   <link rel='dns-prefetch' href='https://maps.googleapis.com/' />
   <link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
@@ -117,7 +120,7 @@
 
   {{-- custom scripts --}}
 
-  <script src="{{ asset('assets/js/scriptone.js') }}"></script>
+  {{-- <script src="{{ asset('assets/js/scriptone.js') }}"></script>
   <script src="{{ asset('assets/js/scripttwo.js') }}"></script>
   <script src="{{ asset('assets/js/scriptthree.js') }}"></script>
   <script src="{{ asset('assets/js/scriptfour.js') }}"></script>
@@ -141,7 +144,7 @@
   <script src="{{ asset('assets/js/script23.js') }}"></script>
   <script src="{{ asset('assets/js/script24.js') }}"></script>
   <script src="{{ asset('assets/js/script25.js') }}"></script>
-  <script src="{{ asset('assets/js/script26.js') }}"></script>
+  <script src="{{ asset('assets/js/script26.js') }}"></script> --}}
   <script src="{{ asset('assets/js/jquery/jquery.js%3Fver=3.6.1') }}"></script>
   <script src="{{ asset('assets/js/jquery/jquery-migrate.js%3Fver=3.3.2') }}"></script>
   <script id='bp-confirm-js-extra'>
@@ -189,6 +192,7 @@
   <meta name="generator"
     content="Powered by Slider Revolution 6.6.7 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
   <script src="assets/js/scriptseven.js"></script>
+ 
 </head>
 
 <body
@@ -227,7 +231,7 @@
 
 
 
-      <div class="fl-top-header-content fl-font-style-regular cf">
+      <div class="fl-top-header-content font-style-bolt">
         <div class="container">
           <div class="row">
             <div class="info-container col offset-2">
@@ -235,7 +239,7 @@
                 <div class="header-sidebar">
                   <div id="custom_html-2" class="widget_text widget widget_custom_html">
                     <div class="textwidget custom-html-widget"><a
-                        href="mailto:support@domain.com">info@kamiligroup.com</a></div>
+                        href="mailto:info@kamiligroup.co.tz">info@kamiligroup.co.tz</a></div>
                   </div>
                   <div id="custom_html-5" class="widget_text widget widget_custom_html">
                     <div class="textwidget custom-html-widget">Mon to Fri : 9:00am to 6:00pm</div>
@@ -266,9 +270,9 @@
             <div class="fl-navigation-container col-12 cf">
               <!-- Start Logo-->
               <div class="fl--logo-container">
-                <a href="dealer.html">
+                <a href="{{ url('/')}}">
 
-                  <img src="{{ asset('assets/images/uploads/2019/05/revus-logotype-min.png') }}" alt="Site Logotype"
+                  <img src="{{ asset('assets/images/uploads/2019/05/revus-logotype-min-black.png') }}" alt="Site Logotype"
                     class="img-logotype">
 
                 </a>
@@ -307,6 +311,9 @@
           </div>
         </div>
       </div>
+   
+        
+      
     </header>
     <div class="header-padding"></div>
     <!--Header End-->
@@ -314,8 +321,10 @@
 
     <!--Main Start-->
     <div class="fl_main">
+      @yield('photo')
       <!--Main content Start-->
       <div class="fl_content_story container">
+        
         <!--Sidebar End-->
         <div class="fl_content page-template content">
           <div class="fl-content-wrapper single-page-wrapper">
@@ -368,7 +377,6 @@
   </style>
 
 
-<link rel="stylesheet" href="{{ asset('assets/css/CbOKOLAGx4De.css')}}" media="all">
 
 
 

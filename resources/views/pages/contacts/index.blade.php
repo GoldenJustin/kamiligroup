@@ -5,25 +5,17 @@
 
 
 
-<div class="fl-page-heading " style=background-image:url(../wp-content/uploads/2019/06/page-heading-image.jpg);>
+<div class="fl-page-heading" style="background-image: url(assets/images/uploads/2019/06/page-heading-image.jpg); background-size: cover;">
   <div class="container">
     <div class="row">
       <div class="fl--page-header-content col">
-        <div class="header-entry-container">
-          <h1 class="header-title fl-font-style-bolt">
-            Contacts </h1>
-          <div class="breadcrumbs-heading">
-            <!-- .breadcrumbs -->
-            <div class="breadcrumbs"><span><a rel="v:url" property="v:title"
-                  href="../../index.html">Home</a></span><span class="breadcrumbs-delimiter"><i
-                  class="fa fa-long-arrow-right"></i></span><span class="current">Contacts</span></div>
-            <!-- .breadcrumbs -->
-          </div>
-        </div>
+        
       </div>
     </div>
   </div>
 </div>
+
+
 
 
 
@@ -67,10 +59,10 @@
                     </div>
                     <div data-animate-type="slideRightIn"
                       class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-3 fl-animated-item-velocity">
-                      <div class=" vc_column-inner  ">
+                      <div class=" vc_column-inner ">
                         <div class="wpb_wrapper">
-                          <div class="fl-vc-contact-icon-box">
-                            <div class="contact-icon-box-container primary-icon-box-style">
+                          <div class="fl-vc-contact-icon-box" >
+                            <div class="contact-icon-box-container primary-icon-box-style" >
                               <div class="top-content"><a href="tel:+255714496210"><i
                                     class="linearicons-font linearicons-phone-handset"></i></a>
                               </div>
@@ -98,8 +90,8 @@
                               <div class="bottom-content">
                                 <h5 class="icon-title-content">Email</h5>
                                 <div class="icon-bottom-content"><a
-                                    href="mailto:info@kamiligroup.co.tz">info@kamiligroup.co.tz</a><br />
-                                  <a href="mailto:support@kamiligroup.com">support@kamiligroup.com</a>
+                                    href="mailto:info@kamiligroup.co.tz">info@kamiligroup.co.tz</a><br>
+                                    Email Us For Any inquiry</a>
                                 </div>
                               </div>
                             </div>
@@ -151,14 +143,9 @@
                           <div class="fl-vc-custom-title-container text-left">
                             <h2
                               class="fl-title-vc vc-default-title fl-font-style-bolt fl-custom-title-64dc5f340cb1b-2781">
-                              Send a <span class="fl-primary-color">Message</span></h2>
+                              Send a <span >Message</span></h2>
                           </div>
-                          <div class="fl_custom_text__block fl-custom-text-64dc5f340cb7c-6508">
-                            <p>Morning itself it seed two sixth let creeping upon greater fruitful brought dominion
-                              winged great stars be open, creature won&#8217;t. You&#8217;re face that bring
-                              they&#8217;re life days lesser. Face it day itself rule he be saw waters.</p>
-                          </div>
-                          <div class="fl-vc-responsive--gap cf" style=height:25px;></div>
+                          
                           <div role="form" class="wpcf7" id="wpcf7-f17546-p17543-o1" lang="en-US" dir="ltr">
                             <div class="screen-reader-response">
                               <p role="status" aria-live="polite" aria-atomic="true"></p>

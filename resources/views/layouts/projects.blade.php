@@ -19,7 +19,9 @@
 
                       <div class="resent-cars-container fl-animated-item-velocity" data-animate-type="slideRightIn"
                         data-item-for-animated=".resent-car-item">
-                        <article class="resent-car-item">
+                
+                         <!--article start-->
+                         <article class="resent-car-item">
                           <!--article start-->
 
                           <div class="entry-auto-grid-wrap">
@@ -27,26 +29,9 @@
 
                             <div class="top-content-wrap">
 
-                              <div class="compare-car-wrap fl-font-style-lighter-than">
-                                <a class="add-to-compare" data-id="17103" data-action="add">
-
-                                  <span class="rem-cmpr">
-                                    <i class="icon-speedometer" aria-hidden="true"></i>
-                                    <em class="cmpr-btn-text">Remove From Compare</em>
-                                  </span>
-                                </a>
-                              </div>
-                              <div class="favorite-car-wrap"><a class="car-favorite" data-id="17103"
-                                  data-action="add-favorite">
-                                  <span class="add-fvrt">
-                                    <i class="fa fa-star-o"></i>
-                                  </span>
-                                  <span class="rem-fvrt">
-                                    <i class="fa fa-star-o"></i>
-                                  </span>
-                                </a></div>
+                            
                               <div class="image-grid-mask"></div>
-                              <a class="auto-link-image-link" href="dealer/index.html%3Fp=17103.html"></a>
+                              <a class="auto-link-image-link" href="{{ url('mbweni')}}"></a>
 
                               <img src="{{ asset('assets/images/uploads/2019/07/mbweni.jpg')}}"
                                 class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" />
@@ -67,7 +52,8 @@
                           <!--//.entry-auto-grid-wrap -->
                         </article>
                         <!--article end-->
-                        <article class="resent-car-item">
+                         <!--article start-->
+                         <article class="resent-car-item">
                           <!--article start-->
 
                           <div class="entry-auto-grid-wrap">
@@ -75,38 +61,21 @@
 
                             <div class="top-content-wrap">
 
-                              <div class="compare-car-wrap fl-font-style-lighter-than">
-                                <a class="add-to-compare" data-id="17103" data-action="add">
-
-                                  <span class="rem-cmpr">
-                                    <i class="icon-speedometer" aria-hidden="true"></i>
-                                    <em class="cmpr-btn-text">Remove From Compare</em>
-                                  </span>
-                                </a>
-                              </div>
-                              <div class="favorite-car-wrap"><a class="car-favorite" data-id="17103"
-                                  data-action="add-favorite">
-                                  <span class="add-fvrt">
-                                    <i class="fa fa-star-o"></i>
-                                  </span>
-                                  <span class="rem-fvrt">
-                                    <i class="fa fa-star-o"></i>
-                                  </span>
-                                </a></div>
+                            
                               <div class="image-grid-mask"></div>
-                              <a class="auto-link-image-link" href="dealer/index.html%3Fp=17103.html"></a>
+                              <a class="auto-link-image-link" href="{{ url('night-club')}}" ></a>
 
-                              <img src="{{ asset('assets/images/uploads/2019/07/mbweni.jpg')}}"
+                              <img src="{{ asset('assets/images/uploads/2019/07/night-club-masaki.jpg')}}"
                                 class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" />
                             </div>
                             <div class="bottom-content-wrap">
                               <h6 class="title-content">
                                 <span class="grid-auto-title fl-text-title-style">Proposed Construction of
-                                  Residential House</span>
+                                  Night Club</span>
                               </h6>
                               <div class="auto-grid-list-content">
                                 <ul class="list-grid--info">
-                                  <li class="list-grid-item fl-font-style-regular"> Mbweni, Dar es Salaam</li>
+                                  <li class="list-grid-item fl-font-style-regular"> <br><br> Masaki, Dar es Salaam</li>
 
                                 </ul>
                               </div>
@@ -115,59 +84,44 @@
                           <!--//.entry-auto-grid-wrap -->
                         </article>
                         <!--article end-->
-                        <article class="resent-car-item">
                           <!--article start-->
-
-                          <div class="entry-auto-grid-wrap">
-                            <!--.entry-auto-grid-wrap -->
-
-                            <div class="top-content-wrap">
-
-                              <div class="compare-car-wrap fl-font-style-lighter-than">
-                                <a class="add-to-compare" data-id="17103" data-action="add">
-
-                                  <span class="rem-cmpr">
-                                    <i class="icon-speedometer" aria-hidden="true"></i>
-                                    <em class="cmpr-btn-text">Remove From Compare</em>
-                                  </span>
-                                </a>
+                          <article class="resent-car-item">
+                            <!--article start-->
+  
+                            <div class="entry-auto-grid-wrap">
+                              <!--.entry-auto-grid-wrap -->
+  
+                              <div class="top-content-wrap">
+  
+                              
+                                <div class="image-grid-mask"></div>
+                                <a class="auto-link-image-link" href="{{ url('T-Mark')}}"></a>
+  
+                                <img src="{{ asset('assets/images/uploads/2019/07/bahari-beach.png')}}"
+                                  class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" />
                               </div>
-                              <div class="favorite-car-wrap"><a class="car-favorite" data-id="17103"
-                                  data-action="add-favorite">
-                                  <span class="add-fvrt">
-                                    <i class="fa fa-star-o"></i>
-                                  </span>
-                                  <span class="rem-fvrt">
-                                    <i class="fa fa-star-o"></i>
-                                  </span>
-                                </a></div>
-                              <div class="image-grid-mask"></div>
-                              <a class="auto-link-image-link" href="dealer/index.html%3Fp=17103.html"></a>
-
-                              <img src="{{ asset('assets/images/uploads/2019/07/mbweni.jpg')}}"
-                                class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" />
-                            </div>
-                            <div class="bottom-content-wrap">
-                              <h6 class="title-content">
-                                <span class="grid-auto-title fl-text-title-style">Proposed Construction of
-                                  Residential House</span>
-                              </h6>
-                              <div class="auto-grid-list-content">
-                                <ul class="list-grid--info">
-                                  <li class="list-grid-item fl-font-style-regular"> Mbweni, Dar es Salaam</li>
-
-                                </ul>
+                              <div class="bottom-content-wrap">
+                                <h6 class="title-content">
+                                  <span class="grid-auto-title fl-text-title-style">Proposed Renovation of
+                                    T-mark Offices </span>
+                                </h6>
+                                <div class="auto-grid-list-content">
+                                  <ul class="list-grid--info">
+                                    <li class="list-grid-item fl-font-style-regular">Bahari Beach, Dar es Salaam</li>
+  
+                                  </ul>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                          <!--//.entry-auto-grid-wrap -->
-                        </article>
-                        <!--article end-->
+                            <!--//.entry-auto-grid-wrap -->
+                          </article>
+                          <!--article end-->
+                       
                       </div>
 
                       <div class="cf"></div>
                       <div class="button-vc-car-wrapper text-center cf">
-                        <div class="fl-pagination ajax-pagination button-container"><a href="me.html"><span
+                        <div class="fl-pagination ajax-pagination button-container"><a href="{{url('projects')}}"><span
                               class="fl-button primary-button" data-car-per-page="6">SHOW MORE
                               PROJECTS</span></a></div>
                       </div>

@@ -30,7 +30,7 @@
                 </div>
                 <div class="right-content">
                   <div class="testimonial-slider-image"><img
-                      src="{{ asset('assets/images/uploads/2020/04/testimonial-slider-image-1-min.jp')}}g" alt=" " />
+                      src="{{ asset('assets/images/uploads/2020/04/review-1.jp')}}g" alt=" " />
                   </div>
                 </div>
               </div>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="right-content">
                   <div class="testimonial-slider-image"><img
-                      src="{{ asset('assets/images/uploads/2020/04/testimonial-slider-image-3-min.jpg')}}" alt=" " />
+                      src="{{ asset('assets/images/uploads/2020/04/mission.jpg')}}" alt=" " />
                   </div>
                 </div>
               </div>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="right-content">
                   <div class="testimonial-slider-image"><img
-                      src="{{ asset('assets/images/uploads/2020/04/testimonial-slider-image-2-min.jpg')}}" alt=" " />
+                      src="{{ asset('assets/images/uploads/2020/04/vision.jpg')}}" alt=" " />
                   </div>
                 </div>
               </div>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="right-content">
                   <div class="testimonial-slider-image"><img
-                      src="{{ asset('assets/images/uploads/2020/04/testimonial-slider-image-2-min.jpg')}}" alt=" " />
+                      src="{{ asset('assets/images/uploads/2020/04/values.jpg')}}" alt=" " />
                   </div>
                 </div>
               </div>

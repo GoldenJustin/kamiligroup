@@ -1,1 +1,0 @@
-!function(e){e.querySelector("html").classList.add("js-enabled")}(document);

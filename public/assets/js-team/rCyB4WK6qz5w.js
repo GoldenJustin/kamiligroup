@@ -1,1 +1,0 @@
-!function(e,n){if(!n)return;e.querySelectorAll("[data-animated-gradient]").forEach((e=>{(new n).initGradient(e)}))}(document,Gradient);

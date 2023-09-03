@@ -11,7 +11,7 @@
             <!--Mobile Nav menu Start-->
             <nav class="fl--mobile-menu-navigation cf">
                 <ul id="menu-mobile-menu" class="fl--mobile-menu">
-                    <li id="menu-item-17931" class="nav-item menu-item-depth-0 "><a href="{{url ('home')}}"
+                    <li id="menu-item-17931" class="nav-item menu-item-depth-0"><a href="{{url ('/')}}"
                             class="menu-link main-menu-link item-title"><i class="disable"></i>Home</a></li>
                     <li id="menu-item-17932" class="nav-item menu-item-depth-0"><a href="about"
                             class="menu-link main-menu-link item-title"><i class="disable"></i>About us</a></li>

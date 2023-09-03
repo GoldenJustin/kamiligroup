@@ -28,12 +28,10 @@
                           </div>
                           <div class="team-top-container-mask"></div>
                           <ul class="team-social">
-                            <li class="team-slider-social"><a href="dealer.html#"><i class="fa fa-twitter"
-                                  aria-hidden="true"></i></a></li>
+                            
 
-                            <li class="team-slider-social"><a href="dealer.html#"><i class="fa fa-facebook"
-                                  aria-hidden="true"></i></a></li>
-                            <li class="team-slider-social"><a href="dealer.html#"><i class="fa fa-instagram"
+                            
+                            <li class="team-slider-social"><a href="https://www.instagram.com/matunda_1/"><i class="fa fa-instagram"
                                   aria-hidden="true"></i></a></li>
                           </ul>
                         </div>
@@ -45,7 +43,7 @@
                         </div>
                         <div class="team-phone-number-container fl-theme-border-color"><i
                             class="ic icon-call-in fl-primary-color"></i><a class="fl-font-style-bolt-two"
-                            href="tel:+17553028549">+1 755 302 8549</a></div>
+                            href="tel:+255714496210">+255 714 496 210</a></div>
                       </div>
                     </div>
                     <div class="fl-vc-responsive--gap cf fl-responsive-gap-64dc649c029ee-3719 fl-vc--responsive"
@@ -66,14 +64,9 @@
                           </div>
                           <div class="team-top-container-mask"></div>
                           <ul class="team-social">
-                            <li class="team-slider-social"><a href="dealer.html#"><i class="fa fa-twitter"
+                            <li class="team-slider-social"><a href="https://www.instagram.com/willedeus/"><i class="fa fa-instagram"
                                   aria-hidden="true"></i></a></li>
-                            <li class="team-slider-social"><a href="dealer.html#"><i class="fa fa-facebook"
-                                  aria-hidden="true"></i></a></li>
-                            <li class="team-slider-social"><a href="dealer.html#"><i class="fa fa-instagram"
-                                  aria-hidden="true"></i></a></li>
-                            <li class="team-slider-social"><a href="dealer.html#"><i class="fa fa-youtube-play"
-                                  aria-hidden="true"></i></a></li>
+                            </i></a></li>
                           </ul>
                         </div>
                         <div class="team-bottom-content">
@@ -84,7 +77,7 @@
                         </div>
                         <div class="team-phone-number-container fl-theme-border-color"><i
                             class="ic icon-call-in fl-primary-color"></i><a class="fl-font-style-bolt-two"
-                            href="tel:+17553028528">+1 755 302 8528</a></div>
+                            href="tel:+255717081717">+255 717 081 717</a></div>
                       </div>
                     </div>
                     <div class="fl-vc-responsive--gap cf fl-responsive-gap-64dc649c02dcc-3239 fl-vc--responsive"
@@ -100,31 +93,27 @@
                       data-animate-type="slideUpBigIn" data-item-delay="250">
                       <div class="fl-team-container team-style-one">
                         <div class="team-top-content">
-                          <div class="team-image"><img src="{{ asset('assets/images/uploads/2020/04/denisimage.jpeg')}}"
+                          <div class="team-image"><img src="{{ asset('assets/images/uploads/2020/04/denisimage.jpg')}}"
                               alt=" " />
                           </div>
                           <div class="team-top-container-mask"></div>
                           <ul class="team-social">
-                            <li class="team-slider-social"><a href="dealer.html#"><i class="fa fa-facebook"
-                                  aria-hidden="true"></i></a></li>
-                            <li class="team-slider-social"><a href="dealer.html#"><i class="fa fa-instagram"
-                                  aria-hidden="true"></i></a></li>
-                            <li class="team-slider-social"><a href="dealer.html#"><i class="fa fa-google"
-                                  aria-hidden="true"></i></a></li>
-                            <li class="team-slider-social"><a href="dealer.html#"><i class="fa fa-youtube-play"
-                                  aria-hidden="true"></i></a></li>
+                            
+                            <li class="team-slider-social"><a href="https://www.instagram.com/deo_mweusi/"><i class="fa fa-instagram"
+                                  aria-hidden="true"></i></a></li>>
+                            </i></a></li>
                           </ul>
                         </div>
                         <div class="team-bottom-content">
                           <div class="bottom-inner-content">
                             <div class="team-name fl-font-style-bolt">Denis <br>
-                              Dawson</div>
+                              Deogratias</div>
                             <div class="team-profession">Director</div>
                           </div>
                         </div>
                         <div class="team-phone-number-container fl-theme-border-color"><i
                             class="ic icon-call-in fl-primary-color"></i><a class="fl-font-style-bolt-two"
-                            href="tel:+17553028572">+1 755 302 8572</a></div>
+                            href="tel:+255712504783">+255 712 504 783</a></div>
                       </div>
                     </div>
                     <div class="fl-vc-responsive--gap cf fl-responsive-gap-64dc649c03165-8781 fl-vc--responsive"

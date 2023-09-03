@@ -9,7 +9,7 @@
             <div class="fl-subtitle-vc fl-font-style-semi-bolt vc-custom-sub-title">DESIGN AND BUILD</div>
             <h2
               class="fl-title-vc vc-custom-title fl-font-style-bolt fl-title-responsive-64dc649bebc45-2227 fl-vc--responsive">
-              Services We <span class="fl-primary-color">Offer</span></h2>
+              Services We Offer</h2>
           </div>
         </div>
         <div class="fl-vc-responsive--gap cf fl-responsive-gap-64dc649bebcb5-4918 fl-vc--responsive"
@@ -42,21 +42,27 @@
               </li>
              
               
-              <a href="{{ url('services') }}" class="btn btn-danger responsive-button dark">
+              <a href="{{ url('services') }}" class="btn responsive-button dark"style="background-color:#1450A3;">
                 <div class="centered-content">
-                  More Services
+                  <div class="text-center tab-title-content fl-font-style-semi-bolt">
+                    More Services >>
+                  </div>
                 </div>
               </a>
               
               
+              
 <style>
-  /* Default style for the button */
+/* Default style for the button */
 .responsive-button {
   width: 6cm;
   height: 6cm;
 }
 .centered-content {
-  text-align: center; /* Center text horizontally */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  height: 100%; /* Ensure the div takes up the full height of the button */
 }
 
 /* Media query for screens smaller than a certain width (adjust as needed) */
@@ -67,7 +73,8 @@
     max-width: 100%; /* Maximum width of 6cm */
   }
 }
-</style>              
+
+</style>    
               
               
               
@@ -82,7 +89,7 @@
                         <div class="    wpb_single_image vc_align_left ">
                           <div class="wpb_wrapper vc_figure">
                             <div class="vc_single_image-wrapper     "><img width="540" height="320"
-                                src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-3-min.jpg')}}"
+                                src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-1-min.jpeg')}}"
                                 class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy"
                                 title="Tabs-image-style-two-3-min" />
                               {{--
@@ -149,7 +156,7 @@
                         <div class="    wpb_single_image vc_align_left ">
                           <div class="wpb_wrapper vc_figure">
                             <div class="vc_single_image-wrapper     "><img width="540" height="320"
-                                src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-1-min.jpg')}}"
+                                src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-2-min.jpeg')}}"
                                 class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy"
                                 title="Tabs-image-style-two-1-min" />
                               {{--
@@ -212,7 +219,7 @@
                         <div class="    wpb_single_image vc_align_left ">
                           <div class="wpb_wrapper vc_figure">
                             <div class="vc_single_image-wrapper     "><img width="540" height="320"
-                                src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-2-min.jpg')}}"
+                                src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-3-min.jpeg')}}"
                                 class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy"
                                 title="Tabs-image-style-two-2-min" {{--
                                 srcset="dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min.jpg 540w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min-300x178.jpg 300w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min-500x296.jpg 500w"

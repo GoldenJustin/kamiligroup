@@ -431,7 +431,7 @@ body .youzify-wall-file-post,
 body .youzify-current-bg-color,
 body .youzify-current-checked-bg-color:checked,
 body .button.accept {
-  background-color: #d01818 !important;
+  background-color: #C58940 !important;
   color: #ffffff !important;
 }
 
@@ -441,7 +441,7 @@ body .button.accept {
   body #youzify .youzify-profile div.item-list-tabs li.last label,
   body #youzify .youzify-directory-filter .item-list-tabs li#groups-order-select label,
   body #youzify .youzify-directory-filter .item-list-tabs li#members-order-select label {
-    background-color: #d01818 !important;
+    background-color: #C58940 !important;
     color: #fff;
   }
 }
@@ -464,41 +464,41 @@ body .youzify-tab-post .youzify-post-title a:hover,
 body .youzify-project-tags .youzify-tag-symbole,
 body .youzify-post-tags .youzify-tag-symbole,
 body .youzify-group-navmenu li a:hover {
-  color: #d01818 !important;
+  color: #C58940 !important;
 }
 
 body .youzify-bbp-topic-head,
 body .youzify .youzify-wc-main-content address .youzify-bullet,
 body .youzify-profile-navmenu .youzify-navbar-item.youzify-active-menu,
 body .youzify-group-navmenu li.current {
-  border-color: #d01818 !important;
+  border-color: #C58940 !important;
 }
 
 body .quote-with-img:before,
 body .youzify-link-content,
 body .youzify-no-thumbnail,
 body a.youzify-settings-widget {
-  background: #d01818 url(dealer/wp-content/plugins/youzify/includes/public/assets/images/dotted-bg.png) !important;
+  background: #C58940 url(dealer/wp-content/plugins/youzify/includes/public/assets/images/dotted-bg.png) !important;
 }
 
 .fl-primary-color,
 .fl-primary-hv-color:hover {
-  color: #d01818
+  color: #C58940
 }
 
 .fl-primary-bg,
 .fl-primary-hv-bg:hover {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-secondary-color,
 .fl-secondary-hv-color:hover {
-  color: #253241;
+  color: #1450A3;
 }
 
 .fl-secondary-bg,
 .fl-secondary-hv-bg:hover {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .fl-light-color,
@@ -513,12 +513,12 @@ body a.youzify-settings-widget {
 
 .fl-dark-color,
 .fl-dark-hv-color:hover {
-  color: #253241;
+  color: #1450A3;
 }
 
 .fl-dark-bg,
 .fl-dark-hv-bg:hover {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .fl-theme-border-color,
@@ -546,51 +546,51 @@ hr,
 
 .jelect-option:hover,
 .jelect-option_state_active {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-mega-menu ul li.current-menu-item>a {
-  color: #d01818
+  color: #C58940
 }
 
 .fl--header .nav-menu li a:hover {
-  color: #d01818
+  color: #C58940
 }
 
 .fl-top-header-content .info-container .left-top-header-content .header-sidebar a:hover {
-  color: #d01818;
+  color: #C58940;
 }
 
 .fl-top-header-content .info-container .right-top-header-content .header-btn:before {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-top-header-content .info-container:after {
-  border-color: #253241 #253241 transparent transparent;
+  border-color: #1450A3 #1450A3 transparent transparent;
 }
 
 .fl-top-header-content {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .fl-header--navigation .fl-bottom-header-content .fl-navigation-container .header-contact i {
-  color: #d01818;
+  color: #C58940;
 }
 
 .fl-header--navigation .fl-bottom-header-content .fl-navigation-container .header-contact .header-contacts__inner .header-contacts__number:hover {
-  color: #d01818;
+  color: #C58940;
 }
 
 .fl-top-header-content .info-container .right-top-header-content .header-btn:after {
-  background-color: #121820
+  background-color: #00008B
 }
 
 .fl-header--navigation .fl-bottom-header-content .fl-navigation-container .sell-car-wrap div a {
-  color: #d01818;
+  color: #C58940;
 }
 
 .fl-header--navigation .fl-bottom-header-content .fl-navigation-container .sell-car-wrap div a:hover {
-  color: #253241;
+  color: #1450A3;
 }
 
 .fl-vc-counter-wrapper .fl-counter-wrapper-inner {
@@ -598,27 +598,27 @@ hr,
 }
 
 .fl-vc-counter-wrapper .fl-counter-wrapper-inner:after {
-  border-color: transparent transparent #253241 #253241;
+  border-color: transparent transparent #1450A3 #1450A3;
 }
 
 .post-archive-wrapper .fl-post-item .post-top-content .post-date {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .post-archive-wrapper .fl-post-item .post-bottom-content .post-btn-read-more-info .post-link:before {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .post-archive-wrapper .fl-post-item .post-bottom-content .post-btn-read-more-info .post-link:after {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .post-archive-wrapper .fl-post-item .post-top-content .post--holder .post-link-mask .post-format-link:hover .link-text {
-  color: #d01818;
+  color: #C58940;
 }
 
 .sticky .post--title .title-link {
-  color: #d01818;
+  color: #C58940;
 }
 
 blockquote {
@@ -630,33 +630,33 @@ blockquote {
 }
 
 .single-post-wrapper .post-tags-content i {
-  color: #d01818
+  color: #C58940
 }
 
 .single-post-wrapper .post-tags-content a {
-  color: #253241
+  color: #1450A3
 }
 
 .single-post-wrapper .post-tags-content a:hover {
-  color: #d01818
+  color: #C58940
 }
 
 .single-page-wrapper a:hover,
 .post-inner_content a:hover,
 .comment-moderation a:hover {
-  color: #d01818;
+  color: #C58940;
 }
 
 .single-page-wrapper .wp-block-search button,
 .post-inner_content .wp-block-search button,
 .comment-moderation .wp-block-search button {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .single-page-wrapper .wp-block-search button:hover,
 .post-inner_content .wp-block-search button:hover,
 .comment-moderation .wp-block-search button:hover {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .single-page-wrapper .wp-block-tag-cloud a,
@@ -668,31 +668,31 @@ blockquote {
 .single-page-wrapper .wp-block-tag-cloud a:hover,
 .post-inner_content .wp-block-tag-cloud a:hover,
 .comment-moderation .wp-block-tag-cloud a:hover {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .post-inner-pagination .post-page-numbers.current,
 .page-inner-pagination .post-page-numbers.current {
-  background-color: #d01818;
-  border-color: #d01818
+  background-color: #C58940;
+  border-color: #C58940
 }
 
 .fl-page-heading {
-  background-color: #121820;
+  background-color: #00008B;
 }
 
 .fl-default-pagination .page-numbers {
-  color: #253241;
+  color: #1450A3;
 }
 
 .fl-default-pagination .page-numbers.current,
 .fl-default-pagination .page-numbers:hover {
-  background-color: #d01818 !important;
-  border-color: #d01818 !important;
+  background-color: #C58940 !important;
+  border-color: #C58940 !important;
 }
 
 form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:after {
-  color: #d01818
+  color: #C58940
 }
 
 .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment--reply a {
@@ -700,98 +700,98 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment--reply a {
-  color: #253241;
+  color: #1450A3;
 }
 
 .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment--reply a:hover {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .comment-reply-title #cancel-comment-reply-link {
-  color: #253241
+  color: #1450A3
 }
 
 .comment-reply-title #cancel-comment-reply-link:hover {
-  color: #d01818
+  color: #C58940
 }
 
 .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment-author-name {
-  color: #253241
+  color: #1450A3
 }
 
 .fl-button.primary-button:before {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .fl-button.primary-button:after {
-  background-color: #253241
+  background-color: #1450A3
 }
 
 .fl-button.primary-button.dark-hover-bg-button:after {
-  background-color: #121820
+  background-color: #00008B
 }
 
 .fl-button.secondary-button:before {
-  background-color: #253241
+  background-color: #1450A3
 }
 
 .fl-button.secondary-button:after {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 #pix-sorting .sorting__inner .sorting__item.view-by a:hover,
 #pix-sorting .sorting__inner .sorting__item.view-by a.active {
   background-color: #f1f5fa;
-  color: #253241;
+  color: #1450A3;
 }
 
 .card-auto-label {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid .entry-auto-grid-wrap .bottom-content-wrap .price-auto-wrap .slider-grid-price {
-  color: #d01818
+  color: #C58940
 }
 
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid .entry-auto-grid-wrap .top-content-wrap .favorite-car-wrap a span.add-fvrt:hover {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid .entry-auto-grid-wrap .top-content-wrap .compare-car-wrap .add-to-compare .rem-cmpr {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid .entry-auto-grid-wrap .top-content-wrap .compare-car-wrap .add-to-compare .add-cmpr:hover {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid.dark-style .bottom-content-wrap {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid .entry-auto-grid-wrap .top-content-wrap .compare-car-wrap .add-to-compare .add-cmpr,
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid .entry-auto-grid-wrap .top-content-wrap .favorite-car-wrap a span.add-fvrt {
-  color: #253241;
+  color: #1450A3;
 }
 
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid .entry-auto-grid-wrap .top-content-wrap .image-grid-mask {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .pix-dynamic-content #pixad-listing.list .post-auto-list .post-entry-content .left-car-content .car-label-list {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .pix-dynamic-content #pixad-listing.list .post-auto-list .post-entry-content .left-car-content .favorite-car-wrap a span.add-fvrt {
-  color: #253241;
+  color: #1450A3;
 }
 
 .pix-dynamic-content #pixad-listing.list .post-auto-list .post-entry-content .left-car-content .favorite-car-wrap a span.add-fvrt:hover {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .pix-dynamic-content #pixad-listing.list .post-auto-list .post-entry-content .left-car-content .favorite-car-wrap a.active-add-favorite .rem-fvrt {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .pix-dynamic-content #pixad-listing.list .post-auto-list .post-entry-content .right-car-content .right-car-content-right-wrap .compare-car-wrap .add-to-compare .add-cmpr {
@@ -800,50 +800,50 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 
 .pix-dynamic-content #pixad-listing.list .post-auto-list .post-entry-content .right-car-content .right-car-content-right-wrap .compare-car-wrap .add-to-compare .add-cmpr:hover,
 .pix-dynamic-content #pixad-listing.list .post-auto-list .post-entry-content .right-car-content .right-car-content-right-wrap .compare-car-wrap .add-to-compare .rem-cmpr {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .pix-auto-wrapper-loader.ajax-loading .post-auto-grid .top-content-wrap:after {
-  color: #d01818 !important;
+  color: #C58940 !important;
 }
 
 .pix-auto-wrapper-loader.ajax-loading .post-auto-list .left-car-content:after {
-  color: #d01818 !important;
+  color: #C58940 !important;
 }
 
 .autos-pagination li.active,
 .autos-pagination li:hover {
-  background-color: #d01818 !important;
-  border-color: #d01818 !important;
+  background-color: #C58940 !important;
+  border-color: #C58940 !important;
 }
 
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid .entry-auto-grid-wrap .top-content-wrap .favorite-car-wrap a.active-add-favorite .rem-fvrt {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .car-details .auto-carousel .slides li.slick-current:after {
-  border-color: #d01818;
+  border-color: #C58940;
 }
 
 .car-details .wrap-nav-table-content ul li.active span:before,
 .car-details .wrap-nav-table-content ul li:hover span:before {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .car-details .tabs-content .tab-content ul:not(.pixad-features-list)>li:before {
-  color: #d01818;
+  color: #C58940;
 }
 
 .sidebar .dealer-info .social-info ul li a {
-  color: #253241;
+  color: #1450A3;
 }
 
 .b-submit__aside-step-inner-info h4 {
-  border-left-color: #d01818;
+  border-left-color: #C58940;
 }
 
 .b-submit__aside-step-inner.m-active {
-  background: #d01818;
+  background: #C58940;
 }
 
 .sidebar:not(.cars-sidebar) .widget,
@@ -852,25 +852,25 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .sidebar .widget .widget-title {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .sidebar .widget .widget-title:after {
-  border-left-color: #d01818;
-  border-top-color: #d01818;
+  border-left-color: #C58940;
+  border-top-color: #C58940;
 }
 
 .sidebar .widget a {
-  color: #253241;
+  color: #1450A3;
 }
 
 .sidebar .widget a:hover {
-  color: #d01818;
+  color: #C58940;
 }
 
 .sidebar .widget_tag_cloud .tagcloud a:hover {
-  background-color: #d01818;
-  border-color: #d01818;
+  background-color: #C58940;
+  border-color: #C58940;
 }
 
 .sidebar .widget_tag_cloud .tagcloud a {
@@ -880,56 +880,56 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 .sidebar .widget_calendar .calendar_wrap .wp-calendar-nav .wp-calendar-nav-prev a:hover,
 .sidebar .widget_calendar .calendar_wrap .wp-calendar-nav .wp-calendar-nav-next a:hover,
 .sidebar .widget_calendar .calendar_wrap #wp-calendar tbody tr td a:hover:before {
-  background-color: #d01818 !important;
+  background-color: #C58940 !important;
 }
 
 .sidebar.cars-sidebar .widget.pixad-filter .noUi-horizontal .noUi-handle:after {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .sidebar.cars-sidebar .widget.pixad-filter .noUi-target {
-  border-color: #d01818;
+  border-color: #C58940;
 }
 
 .sidebar-title-content:after {
-  border-left-color: #d01818;
-  border-top-color: #d01818;
+  border-left-color: #C58940;
+  border-top-color: #C58940;
 }
 
 .sidebar-title-content {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .sidebar.cars-sidebar .widget.pixad-filter .list-categories .list-categories__item input[type=checkbox]:checked+label {
-  border-color: #d01818;
+  border-color: #C58940;
 }
 
 .sidebar .widget-content .list-categories li input[type=checkbox]:checked+label .auto_body_name {
-  color: #d01818;
+  color: #C58940;
 }
 
 .sidebar .widget_calendar .calendar_wrap #wp-calendar tbody tr td a:before {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .sidebar .widget_calendar .calendar_wrap #wp-calendar tbody tr td a:hover:before {
-  background-color: #253241 !important;
+  background-color: #1450A3 !important;
 }
 
 .calendar-wrap .fc-widget-header th {
-  background-color: #253241 !important;
+  background-color: #1450A3 !important;
 }
 
 .sidebar .dealer-info .dealer-bottom-info .phone-info .right .phone-text:hover {
-  color: #d01818;
+  color: #C58940;
 }
 
 .sidebar .dealer-info .social-info ul li a:hover {
-  color: #d01818
+  color: #C58940
 }
 
 .sidebar .dealer-info .dealer-top-info {
-  background-color: #253241
+  background-color: #1450A3
 }
 
 .sidebar .auto-price-info .bottom-info {
@@ -937,31 +937,31 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 footer {
-  background-color: #121820;
+  background-color: #00008B;
 }
 
 footer .top-content-footer .footer-social a {
-  background-color: #253241
+  background-color: #1450A3
 }
 
 footer .top-content-footer .footer-social a:hover {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .footer-widget-area .widget_nav_menu ul li a:hover:before {
-  color: #d01818
+  color: #C58940
 }
 
 .widget_fl_theme_helper_wmpl_mailchimp_footer .mailchimp-footer-form .form-btn button:before {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .widget_fl_theme_helper_wmpl_mailchimp_footer .mailchimp-footer-form .form-btn button:after {
-  background-color: #253241
+  background-color: #1450A3
 }
 
 .vc_row.bg-dark-color {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .vc_row.bg-light-color {
@@ -969,20 +969,20 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-vc-icon-box .icon-box-style-one {
-  color: #253241
+  color: #1450A3
 }
 
 .fl-vc-icon-box .icon-box-style-two {
-  color: #253241
+  color: #1450A3
 }
 
 .fl-vc-icon-box .icon-box-style-two:after {
-  border-bottom-color: #d01818 !important;
-  border-left-color: #d01818 !important;
+  border-bottom-color: #C58940 !important;
+  border-left-color: #C58940 !important;
 }
 
 .fl-vc-icon-box .icon-box-style-two.primary-icon-box-style {
-  background-color: #253241
+  background-color: #1450A3
 }
 
 .fl-vc-contact-icon-box .contact-icon-box-container {
@@ -990,69 +990,69 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-vc-contact-icon-box .contact-icon-box-container.primary-icon-box-style .top-content {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .fl-vc-contact-icon-box .contact-icon-box-container.secondary-icon-box-style .top-content {
-  background-color: #253241
+  background-color: #1450A3
 }
 
 .fl-vc-contact-icon-box .contact-icon-box-container .bottom-content .icon-bottom-content a:hover {
-  color: #d01818
+  color: #C58940
 }
 
 .fl-vc-contact-icon-box .contact-icon-box-container:after {
-  border-color: transparent transparent #253241 #253241;
+  border-color: transparent transparent #1450A3 #1450A3;
 }
 
 .fl-team-content-vc .fl-team-container .team-top-content .team-top-container-mask {
-  background-color: #253241
+  background-color: #1450A3
 }
 
 .fl-team-content-vc .fl-team-container .team-bottom-content .bottom-inner-content {
-  background-color: #253241
+  background-color: #1450A3
 }
 
 .fl-team-content-vc .fl-team-container:hover .team-bottom-content .bottom-inner-content {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .fl-team-content-vc .fl-team-container.team-style-one .team-top-content .team-social li a i,
 .fl-team-content-vc .fl-team-container.team-style-two .team-top-content .entry-top-content .team-social li a i {
-  color: #253241
+  color: #1450A3
 }
 
 .fl-team-content-vc .fl-team-container .team-top-content .entry-top-content .team-social li a:hover i,
 .fl-team-content-vc .fl-team-container.team-style-one .team-top-content .team-social li a:hover i {
-  color: #d01818
+  color: #C58940
 }
 
 .fl-team-content-vc .fl-team-container.team-style-one .team-phone-number-container a:hover {
-  color: #d01818
+  color: #C58940
 }
 
 .fl-fancy-text-content-vc .fl-fancy-text-container {
-  color: #253241
+  color: #1450A3
 }
 
 .fl-fancy-text-content-vc .fl-fancy-text-container .fancy-text-item-content .top-content .fancy-text-number:after {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .fl-fancy-text-content-vc .fl-fancy-text-container .fancy-text-item-content .top-content:before {
-  background-image: linear-gradient(to right, #253241 40%, rgba(255, 255, 255, 0) 0);
+  background-image: linear-gradient(to right, #1450A3 40%, rgba(255, 255, 255, 0) 0);
 }
 
 .fl-vc-testimonial-slider-wrapper .testimonial-slider.testimonial-style-one .slick-dots li.slick-active button,
 .fl-vc-testimonial-slider-wrapper .testimonial-slider.testimonial-style-one .slick-dots li:hover button {
-  background-color: #d01818;
-  border-color: #d01818;
+  background-color: #C58940;
+  border-color: #C58940;
 }
 
 .fl-vc-testimonial-slider-wrapper .testimonial-slider.testimonial-style-two .slick-dots li.slick-active button,
 .fl-vc-testimonial-slider-wrapper .testimonial-slider.testimonial-style-two .slick-dots li:hover button {
-  background-color: #d01818;
-  border-color: #d01818;
+  background-color: #C58940;
+  border-color: #C58940;
 }
 
 .fl-vc-testimonial-slider-wrapper .testimonial-slider.testimonial-style-two .slide-content .top-slider-content {
@@ -1064,40 +1064,40 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-vc-tabs.tab-style-one .tabs-entry-content .nav-tabs li.active {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-vc-tabs.tab-style-one .tabs-entry-content .nav-tabs li {
-  color: #253241
+  color: #1450A3
 }
 
 .fl-vc-tabs.tab-style-two .tabs-entry-content .nav-tabs li.active {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-vc-tabs.tab-style-two .tabs-entry-content .nav-tabs li {
-  color: #253241
+  color: #1450A3
 }
 
 .fl-banner-content-vc .fl-banner-container.banner-style-one .banner-entry-content .banner-label {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-banner-content-vc .fl-banner-container.banner-style-one .banner-entry-content .subtitle-additional-text-container .additional-text-content {
-  color: #d01818;
+  color: #C58940;
 }
 
 .fl-banner-content-vc .fl-banner-container.banner-style-two .banner-label {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-banner-content-vc .fl-banner-container.banner-style-three .title-label-container .banner-label {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-accordion .vc_tta-container .vc_tta-panels .vc_tta-panel.vc_active .fl-tta-panel-icon i,
 .fl-accordion .vc_tta-container .vc_tta-panels .vc_tta-panel:hover .fl-tta-panel-icon i {
-  color: #d01818
+  color: #C58940
 }
 
 .fl-accordion .vc_tta-container .vc_tta-panels .vc_tta-panel {
@@ -1105,111 +1105,111 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .top-content-wrap .image-grid-mask {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .bottom-content-wrap {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .top-content-wrap .compare-car-wrap .add-to-compare .add-cmpr,
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .top-content-wrap .favorite-car-wrap a span.add-fvrt {
-  color: #253241;
+  color: #1450A3;
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .top-content-wrap .favorite-car-wrap a.active-add-favorite .rem-fvrt {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .top-content-wrap .favorite-car-wrap a span.add-fvrt:hover {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .top-content-wrap .compare-car-wrap .add-to-compare .rem-cmpr {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .top-content-wrap .compare-car-wrap .add-to-compare .add-cmpr:hover {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item:hover .entry-auto-grid-wrap .bottom-content-wrap {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item:hover .entry-auto-grid-wrap .bottom-content-wrap .title-content .card-auto-label {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .fl-phone-number-wrapper-vc .bottom-content i {
-  color: #d01818;
+  color: #C58940;
 }
 
 .fl-phone-number-wrapper-vc .bottom-content .phone-number-link:hover {
-  color: #d01818;
+  color: #C58940;
 }
 
 .fl-cars-slider-wrap-vc .cars-slider .slider-car-item .top-content-wrap .item-car-slider-price .slider-grid-price {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .car-slider-arrow-style-two-wrap .slider-arrow-wrap .slider-arrow-left:hover,
 .car-slider-arrow-style-two-wrap .slider-arrow-wrap .slider-arrow-right:hover {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-cars-slider-wrap-vc.car-slider-style-two-wrap .cars-slider .slider-car-item:hover .bottom-content-wrap {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-cars-slider-wrap-vc .cars-slider .slider-car-item .top-content-wrap .image-grid-mask {
-  background-color: #253241 !important;
+  background-color: #1450A3 !important;
 }
 
 .fl-cars-slider-wrap-vc.car-slider-style-two-wrap .cars-slider .slider-car-item:hover .bottom-content-wrap .title-content .card-auto-label {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .fl-custom-banner-content-vc .fl-custom-banner-container.primary-custom-banner-style .custom-banner-entry-content {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .fl-custom-banner-content-vc .fl-custom-banner-container.secondary-custom-banner-style .custom-banner-entry-content {
-  background-color: #253241
+  background-color: #1450A3
 }
 
 .slide-one-content .rev-slide-inner-content:after {
-  background: #253241;
+  background: #1450A3;
 }
 
 .slide-one-content .rev-slide-inner-content .slide-bottom-content .slide-button-wrap .slider-decor {
-  background: #253241;
+  background: #1450A3;
 }
 
 .slide-one-content .rev-slide-inner-content .slide-bottom-content .slide-button-wrap .button-slider-link:hover {
-  color: #d01818;
+  color: #C58940;
 }
 
 .slide-two-content .rev-slide-inner-content .slide-button-wrap .button-slider-link:hover {
-  color: #d01818
+  color: #C58940
 }
 
 .slide-two-content .rev-slide-inner-content .slide-bottom-content .slide-button-wrap .slider-decor {
-  background: #253241;
+  background: #1450A3;
 }
 
 .fl-pricing-table .title-wrap .pricing-table-sub-title {
-  color: #d01818;
+  color: #C58940;
 }
 
 .fl-pricing-table .pricing-table-price-wrap {
-  color: #d01818;
+  color: #C58940;
 }
 
 .single-page-wrapper cite,
 .post-inner_content cite,
 .comment-moderation cite {
-  color: #d01818;
+  color: #C58940;
 }
 
 address,
@@ -1221,83 +1221,83 @@ samp {
 }
 
 .sidebar.cars-sidebar .widget.pixad-filter .noUi-origin+.noUi-origin {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .breadcrumbs-heading a:hover {
-  color: #d01818;
+  color: #C58940;
 }
 
 .fl-vc-vehicle-search .vc-auto-search {
-  border-color: #253241;
+  border-color: #1450A3;
 }
 
 .fl-home-page-posts-content-vc .home-page-post-container .blog-post-home-page .post-entry-content .bottom-link-post-content .left-content .post-link {
-  color: #d01818;
+  color: #C58940;
 }
 
 .fl-home-page-posts-content-vc .home-page-post-container .blog-post-home-page .post-entry-content .bottom-link-post-content .left-content .post-link:before {
-  background-color: #d01818 !important;
+  background-color: #C58940 !important;
 }
 
 .fl-home-page-posts-content-vc .home-page-post-container .blog-post-home-page .post-entry-content .bottom-link-post-content .left-content .post-link:hover {
-  color: #253241;
+  color: #1450A3;
 }
 
 .fl-home-page-posts-content-vc .home-page-post-container .blog-post-home-page .post-entry-content .bottom-link-post-content .left-content .post-link:after {
-  background-color: #253241 !important;
+  background-color: #1450A3 !important;
 }
 
 .rev-slider-mobile-bg {
-  background-color: #253241 !important;
+  background-color: #1450A3 !important;
 }
 
 .wp-block-button__link {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .wp-block-button__link:hover {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 wp-block-button.is-style-outline .wp-block-button__link:hover {
-  background-color: #d01818;
-  border-color: #d01818;
+  background-color: #C58940;
+  border-color: #C58940;
   color: #ffffff !important;
 }
 
 .sidebar .booking_car_info .booking_form .submit:before {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .sidebar .booking_car_info .booking_form .submit:after {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .woocommerce div.product .price .woocommerce-Price-amount,
 .woocommerce div.product .price .woocommerce-Price-amount,
 html .shop-archive-item .fl-woo-item-inner-content .fl-woo-item-bottom-content .fl--woo-add-to-cart-wrap .fl--woo-price-wrap {
-  color: #d01818 !important;
+  color: #C58940 !important;
 }
 
 .shop-archive-item .fl-woo-item-inner-content .fl-woo-item-bottom-content .fl--woo-add-to-cart-wrap .fl--add-to-cart-btn a:hover {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .woocommerce div.product form.cart button:before {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .woocommerce div.product .product_meta .tagged_as a:hover {
-  background-color: #d01818 !important;
+  background-color: #C58940 !important;
 }
 
 .wc-tab#tab-reviews form.comment-form .submit-btn-container button {
-  background-color: #d01818 !important
+  background-color: #C58940 !important
 }
 
 .single-product .woocommerce-message a.button:hover,
@@ -1306,15 +1306,15 @@ html .shop-archive-item .fl-woo-item-inner-content .fl-woo-item-bottom-content .
 .woocommerce-info a:hover,
 .woocommerce-message a.button,
 .woocommerce-message a:hover {
-  background: #d01818 !important;
+  background: #C58940 !important;
 }
 
 input[type=checkbox]:checked:after {
-  color: #d01818 !important;
+  color: #C58940 !important;
 }
 
 .woocommerce form.login .form-row button.button {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .woocommerce table.shop_table tbody tr td.actions .coupon button,
@@ -1325,7 +1325,7 @@ form.checkout #order_review #payment .place-order button,
 .woocommerce form.login .form-row button.button,
 .woocommerce form.lost_reset_password button.button,
 .woocommerce button.button {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .woocommerce table.shop_table tbody tr td.actions .coupon button:hover,
@@ -1336,15 +1336,15 @@ form.checkout #order_review #payment .place-order button:hover,
 .woocommerce form.login .form-row button.button:hover,
 .woocommerce form.lost_reset_password button.button:hover,
 .woocommerce button.button:hover {
-  background-color: #d01818
+  background-color: #C58940
 }
 
 .shop-archive-item .fl-woo-item-inner-content .fl-woo-item-bottom-content .fl--woo-add-to-cart-wrap .fl--add-to-cart-btn a {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .shop-archive-item .fl-woo-item-inner-content .yith-wcwl-add-to-wishlist a.add_to_wishlist:hover:before {
-  color: #d01818;
+  color: #C58940;
 }
 
 .hidden {
@@ -1352,7 +1352,7 @@ form.checkout #order_review #payment .place-order button:hover,
 }
 
 .woocommerce div.product form.cart button:hover:after {
-  background-color: #253241;
+  background-color: #1450A3;
 }
 
 .single-product .woocommerce-message a.button:hover,
@@ -1361,82 +1361,82 @@ form.checkout #order_review #payment .place-order button:hover,
 .woocommerce-info a:hover,
 .woocommerce-message a.button:hover,
 .woocommerce-message a:hover {
-  background-color: #253241 !important;
+  background-color: #1450A3 !important;
 }
 
 .woocommerce table.shop_table tbody tr td.actions .coupon button:hover,
 .woocommerce table.shop_table tbody tr td.actions .update--cart-content button.update_cart:hover {
-  background-color: #253241 !important;
+  background-color: #1450A3 !important;
 }
 
 .woocommerce .cart-collaterals .cart_totals a.checkout-button {
-  background-color: #253241 !important;
+  background-color: #1450A3 !important;
 }
 
 .woocommerce .cart-collaterals .cart_totals a.checkout-button:hover {
-  background-color: #d01818 !important;
+  background-color: #C58940 !important;
 }
 
 .woocommerce-info .showcoupon {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .woocommerce-info .showcoupon:hover {
-  background-color: #253241;
+  background-color: #1450A3;
   color: #ffffff !important;
 }
 
 .woocommerce form.checkout_coupon button:hover {
-  background-color: #253241 !important
+  background-color: #1450A3 !important
 }
 
 form.checkout #order_review #payment .place-order button:hover {
-  background-color: #253241 !important;
+  background-color: #1450A3 !important;
 }
 
 .pmpro_login_wrap form .login-submit input {
-  background-color: #d01818 !important;
+  background-color: #C58940 !important;
 }
 
 .pmpro_login_wrap form .login-submit input:hover {
-  background-color: #253241 !important;
+  background-color: #1450A3 !important;
 }
 
 .fl-venders-author .fl-venders-author-posts .fl-venders-select li.active:before {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-venders-author .fl-venders-author-posts .fl-venders-select li span:before {
-  background-color: #d01818;
+  background-color: #C58940;
 }
 
 .fl-venders-author .fl-venders-author-posts .fl-venders-select li span:hover {
-  color: #d01818;
+  color: #C58940;
 }
 
 .pmpro_actionlinks a:hover,
 .pmpro_table a:hover {
-  color: #d01818 !important;
+  color: #C58940 !important;
 }
 
 .pmpro_actions_nav a,
 .pmpro_btn,
 .login-submit .button {
-  background-color: #d01818 !important;
+  background-color: #C58940 !important;
 }
 
 .pmpro_actions_nav a:hover,
 .pmpro_btn:hover,
 .login-submit .button:hover {
-  background-color: #253241 !important;
+  background-color: #1450A3 !important;
 }
 
 .booking_form:before {
-  color: #d01818 !important
+  color: #C58940 !important
 }
 
 .revus_booking_prices_contain_grid {
-  background-color: #253241 !important;
+  background-color: #1450A3 !important;
   border-bottom: 1px solid rgba(221, 221, 221, 0.2);
 }
 
@@ -1551,7 +1551,7 @@ html .youzify-widget .youzify-widget-title,
   font-family: Montserrat;
   font-weight: 700;
   text-transform: none;
-  color: #253241;
+  color: #1450A3;
 }
 
 .fl-font-style-regular {
@@ -1645,7 +1645,7 @@ h6,
 #fl-page--preloader .fl-top-progress .fl-loader_left,
 #fl-page--preloader .fl-top-progress .fl-loader_right,
 #fl-page--preloader .fl--preloader-progress-bar span {
-  background-color: #d01818 !important;
+  background-color: #C58940 !important;
 }
 
 .footer-logotype .img-footer-logotype {
@@ -3072,7 +3072,7 @@ body .youzify-wall-file-post,
 body .youzify-current-bg-color,
 body .youzify-current-checked-bg-color:checked,
 body .button.accept {
-  background-color: #d01818 !important;
+  background-color: #C58940 !important;
   color: #ffffff !important;
 }
 
@@ -3082,7 +3082,7 @@ body .button.accept {
   body #youzify .youzify-profile div.item-list-tabs li.last label,
   body #youzify .youzify-directory-filter .item-list-tabs li#groups-order-select label,
   body #youzify .youzify-directory-filter .item-list-tabs li#members-order-select label {
-    background-color: #d01818 !important;
+    background-color: #C58940 !important;
     color: #fff;
   }
 }
@@ -3105,19 +3105,19 @@ body .youzify-tab-post .youzify-post-title a:hover,
 body .youzify-project-tags .youzify-tag-symbole,
 body .youzify-post-tags .youzify-tag-symbole,
 body .youzify-group-navmenu li a:hover {
-  color: #d01818 !important;
+  color: #C58940 !important;
 }
 
 body .youzify-bbp-topic-head,
 body .youzify .youzify-wc-main-content address .youzify-bullet,
 body .youzify-profile-navmenu .youzify-navbar-item.youzify-active-menu,
 body .youzify-group-navmenu li.current {
-  border-color: #d01818 !important;
+  border-color: #C58940 !important;
 }
 
 body .quote-with-img:before,
 body .youzify-link-content,
 body .youzify-no-thumbnail,
 body a.youzify-settings-widget {
-  background: #d01818 url(../wp-content/plugins/youzify/includes/public/assets/images/dotted-bg.png) !important;
+  background: #C58940 url(../wp-content/plugins/youzify/includes/public/assets/images/dotted-bg.png) !important;
 }

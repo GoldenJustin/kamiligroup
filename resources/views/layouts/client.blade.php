@@ -37,6 +37,7 @@
                       <div class="cars-slider fl-animated-item-velocity slider_style_two"
                         data-animate-type="slideLeftIn">
 
+                      
                         <article class="slider-car-item" style="margin-right: 100px">
                           <!--article start-->
 
@@ -50,8 +51,8 @@
                               </div>
 
                               <div class="image-grid-mask"></div>
-                              <a class="auto-link-image-link" href="dealer/index.html%3Fp=17100.html"></a>
-                              <img src="{{ asset('assets/images/uploads/2019/07/bluecoast.png') }}"
+                              <a class="auto-link-image-link"></a>
+                              <img src="{{ asset('assets/images/uploads/2019/07/bluecoast.jpg') }}"
                                 class="img-responsive wp-post-image" style="height:250px;" decoding="async" />
                             </div>
 
@@ -59,6 +60,7 @@
                           <!--//.entry-auto-grid-wrap -->
                         </article>
                         <!--article end-->
+
 
                         <article class="slider-car-item" style="margin-right: 100px">
                           <!--article start-->
@@ -73,8 +75,8 @@
                               </div>
 
                               <div class="image-grid-mask"></div>
-                              <a class="auto-link-image-link" href="dealer/index.html%3Fp=17100.html"></a>
-                              <img src="{{ asset('assets/images/uploads/2019/07/KING SOLOMON.png') }}"
+                              <a class="auto-link-image-link"></a>
+                              <img src="{{ asset('assets/images/uploads/2019/07/KING SOLOMON.jpg') }}"
                                 class="img-responsive wp-post-image" style="height:250px;" decoding="async" />
                             </div>
 
@@ -82,7 +84,6 @@
                           <!--//.entry-auto-grid-wrap -->
                         </article>
                         <!--article end-->
-
                         <article class="slider-car-item" style="margin-right: 100px">
                           <!--article start-->
 
@@ -92,20 +93,20 @@
                             <div class="top-content-wrap">
                               <div class="item-car-slider-price">
                                 <span class="slider-grid-price fl-font-style-semi-bolt">MARENGA
-                                  INVESTMENT<span class="after-price-text"></span></span>
+                                  INVESTMENT<span
+                                    class="after-price-text"></span></span>
                               </div>
 
                               <div class="image-grid-mask"></div>
-                              <a class="auto-link-image-link" href="dealer/index.html%3Fp=17100.html"></a>
-                              <img src="{{ asset('assets/images/uploads/2019/07/marenga.png') }}"
-                                class="img-responsive wp-post-image" style="height:200px;" decoding="async" />
+                              <a class="auto-link-image-link"></a>
+                              <img src="{{ asset('assets/images/uploads/2019/07/marenga.jpg') }}"
+                                class="img-responsive wp-post-image" style="height:250px;" decoding="async" />
                             </div>
 
                           </div>
                           <!--//.entry-auto-grid-wrap -->
                         </article>
                         <!--article end-->
-
                         <article class="slider-car-item" style="margin-right: 100px">
                           <!--article start-->
 
@@ -119,16 +120,15 @@
                               </div>
 
                               <div class="image-grid-mask"></div>
-                              <a class="auto-link-image-link" href="dealer/index.html%3Fp=17100.html"></a>
-                              <img src="{{ asset('assets/images/uploads/2019/07/cfao.png') }}"
-                                class="img-responsive wp-post-image" style="height:200px;" decoding="async" />
+                              <a class="auto-link-image-link"></a>
+                              <img src="{{ asset('assets/images/uploads/2019/07/cfao.jpg') }}"
+                                class="img-responsive wp-post-image" style="height:250px;" decoding="async" />
                             </div>
 
                           </div>
                           <!--//.entry-auto-grid-wrap -->
                         </article>
                         <!--article end-->
-
                         <article class="slider-car-item" style="margin-right: 100px">
                           <!--article start-->
 
@@ -142,19 +142,103 @@
                               </div>
 
                               <div class="image-grid-mask"></div>
-                              <a class="auto-link-image-link" href="dealer/index.html%3Fp=17100.html"></a>
-                              <img src="{{ asset('assets/images/uploads/2019/07/psi.png') }}"
-                                class="img-responsive wp-post-image" style="height:200px;" decoding="async" />
+                              <a class="auto-link-image-link"></a>
+                              <img src="{{ asset('assets/images/uploads/2019/07/psi.jpg') }}"
+                                class="img-responsive wp-post-image" style="height:250px;" decoding="async" />
                             </div>
 
                           </div>
                           <!--//.entry-auto-grid-wrap -->
                         </article>
                         <!--article end-->
+                        <article class="slider-car-item" style="margin-right: 100px">
+                          <!--article start-->
 
+                          <div class="entry-auto-grid-wrap">
+                            <!--.entry-auto-grid-wrap -->
 
+                            <div class="top-content-wrap">
+                              <div class="item-car-slider-price">
+                                <span class="slider-grid-price fl-font-style-semi-bolt">T-MARK TANZANIA<span
+                                    class="after-price-text"></span></span>
+                              </div>
 
+                              <div class="image-grid-mask"></div>
+                              <a class="auto-link-image-link"></a>
+                              <img src="{{ asset('assets/images/uploads/2019/07/tmark.jpg') }}"
+                                class="img-responsive wp-post-image" style="height:250px;" decoding="async" />
+                            </div>
 
+                          </div>
+                          <!--//.entry-auto-grid-wrap -->
+                        </article>
+                        <!--article end-->
+                        <article class="slider-car-item" style="margin-right: 100px">
+                          <!--article start-->
+
+                          <div class="entry-auto-grid-wrap">
+                            <!--.entry-auto-grid-wrap -->
+
+                            <div class="top-content-wrap">
+                              <div class="item-car-slider-price">
+                                <span class="slider-grid-price fl-font-style-semi-bolt">SHIRIKA LA BIMA<span
+                                    class="after-price-text"></span></span>
+                              </div>
+
+                              <div class="image-grid-mask"></div>
+                              <a class="auto-link-image-link"></a>
+                              <img src="{{ asset('assets/images/uploads/2019/07/zic.jpg') }}"
+                                class="img-responsive wp-post-image" style="height:250px;" decoding="async" />
+                            </div>
+
+                          </div>
+                          <!--//.entry-auto-grid-wrap -->
+                        </article>
+                        <!--article end-->
+                        <article class="slider-car-item" style="margin-right: 100px">
+                          <!--article start-->
+
+                          <div class="entry-auto-grid-wrap">
+                            <!--.entry-auto-grid-wrap -->
+
+                            <div class="top-content-wrap">
+                              <div class="item-car-slider-price">
+                                <span class="slider-grid-price fl-font-style-semi-bolt">TANZANIA PETROLLEUM DEVELOPMENT CORPORATION<span
+                                    class="after-price-text"></span></span>
+                              </div>
+
+                              <div class="image-grid-mask"></div>
+                              <a class="auto-link-image-link"></a>
+                              <img src="{{ asset('assets/images/uploads/2019/07/tanzania-petrolleum.jpg') }}"
+                                class="img-responsive wp-post-image" style="height:250px;" decoding="async" />
+                            </div>
+
+                          </div>
+                          <!--//.entry-auto-grid-wrap -->
+                        </article>
+                        <!--article end-->
+                        <article class="slider-car-item" style="margin-right: 100px">
+                          <!--article start-->
+
+                          <div class="entry-auto-grid-wrap">
+                            <!--.entry-auto-grid-wrap -->
+
+                            <div class="top-content-wrap">
+                              <div class="item-car-slider-price">
+                                <span class="slider-grid-price fl-font-style-semi-bolt">JUSTICE PAIX TRAVAIL<span
+                                    class="after-price-text"></span></span>
+                              </div>
+
+                              <div class="image-grid-mask"></div>
+                              <a class="auto-link-image-link"></a>
+                              <img src="{{ asset('assets/images/uploads/2019/07/justice-paix.jpg') }}"
+                                class="img-responsive wp-post-image" style="height:250px;" decoding="async" />
+                            </div>
+
+                          </div>
+                          <!--//.entry-auto-grid-wrap -->
+                        </article>
+                        <!--article end-->
                       </div>
                       <div class="slider-arrow-wrap">
                         <div class="slider-arrow-left"></div>
@@ -163,7 +247,7 @@
                     </div>
 
 
-                    <div class="fl-vc-responsive--gap cf" style=height:50px;></div>
+                    <div class="fl-vc-responsive--gap cf" style=height:10px;></div>
 
                   </div>
                 </div>

@@ -10,46 +10,46 @@
                         data-custom-class="fl-magnific--popup64dc649c08e37-310" data-count-item="8"
                         data-count-table-item="5" data-count-mobile-item="3">
                         <div class="gallery-item-slider ">
-                          <a href="{{ asset('assets/images/uploads/2020/05/gallery-car-image-1-min.jpeg') }}">
+                          <a href="{{ asset('assets/Photos/CFAO/16.jpgg') }}">
                             <img alt="photo" class="img-scale"
-                              src="{{ asset('assets/images/uploads/2020/05/gallery-car-image-1-min.jpeg') }}" />
+                              src="{{ asset('assets/Photos/CFAO/16.jpg') }}" />
                           </a>
                         </div>
 
                         <div class="gallery-item-slider "><a
-                            href="{{ asset('assets/images/uploads/2020/05/gallery-car-image-2-min.jpeg')}}"><img
+                            href="{{ asset('assets/Photos/BlueCoast-Offices/bluecoast-image-1.jpeg')}}"><img
                               alt="photo" class="img-scale"
-                              src="{{ asset('assets/images/uploads/2020/05/gallery-car-image-2-min.jpeg')}}" /></a>
+                              src="{{ asset('assets/Photos/BlueCoast-Offices/bluecoast-image-1.jpeg')}}" /></a>
                         </div>
                         <div class="gallery-item-slider "><a
-                            href="{{ asset('assets/images/uploads/2020/05/gallery-car-image-3-min.jpeg')}}"><img
+                            href="{{ asset('assets/Photos/BlueCoast-Offices/bluecoast-image-3.jpeg')}}"><img
                               alt="photo" class="img-scale"
-                              src="{{ asset('assets/images/uploads/2020/05/gallery-car-image-3-min.jpeg')}}" /></a>
+                              src="{{ asset('assets/Photos/BlueCoast-Offices/bluecoast-image-3.jpeg')}}" /></a>
                         </div>
                         <div class="gallery-item-slider "><a
-                            href="{{ asset('assets/images/uploads/2020/05/gallery-car-image-4-min.jpeg')}}"><img
+                            href="{{ asset('assets/Photos/BlueCoast-Offices/bluecoast-image-3.jpeg')}}"><img
                               alt="photo" class="img-scale"
-                              src="{{ asset('assets/images/uploads/2020/05/gallery-car-image-4-min.jpeg')}}" /></a>
+                              src="{{ asset('assets/Photos/BlueCoast-Offices/bluecoast-image-3.jpeg')}}" /></a>
                         </div>
                         <div class="gallery-item-slider "><a
-                            href="{{ asset('assets/images/uploads/2020/05/gallery-car-image-5-min.jpeg')}}"><img
+                            href="{{ asset('assets/Photos/BlueCoast-Offices/bluecoast-image-4.jpegg')}}"><img
                               alt="photo" class="img-scale"
-                              src="{{ asset('assets/images/uploads/2020/05/gallery-car-image-5-min.jpeg')}}" /></a>
+                              src="{{ asset('assets/Photos/BlueCoast-Offices/bluecoast-image-4.jpeg')}}" /></a>
                         </div>
                         <div class="gallery-item-slider "><a
-                            href="{{ asset('assets/images/uploads/2020/05/gallery-car-image-6-min.jpeg')}}"><img
+                            href="{{ asset('assets/Photos/BlueCoast-Offices/bluecoast-image-5.jpeg')}}"><img
                               alt="photo" class="img-scale"
-                              src="{{ asset('assets/images/uploads/2020/05/gallery-car-image-6-min.jpeg')}}" /></a>
+                              src="{{ asset('assets/Photos/BlueCoast-Offices/bluecoast-image-5.jpeg')}}" /></a>
                         </div>
                         <div class="gallery-item-slider "><a
-                            href="{{ asset('assets/images/uploads/2020/05/gallery-car-image-7-min.jpeg')}}"><img
+                            href="{{ asset('assets/Photos/BlueCoast-Offices/bluecoast-image-6.jpeg')}}"><img
                               alt="photo" class="img-scale"
-                              src="{{ asset('assets/images/uploads/2020/05/gallery-car-image-7-min.jpeg')}}" /></a>
+                              src="{{ asset('assets/Photos/BlueCoast-Offices/bluecoast-image-6.jpeg')}}" /></a>
                         </div>
                         <div class="gallery-item-slider "><a
-                            href="{{ asset('assets/images/uploads/2020/05/gallery-car-image-8-min.jpeg')}}"><img
+                            href="{{ asset('assets/Photos/CFAO/17.jpg')}}"><img
                               alt="photo" class="img-scale"
-                              src="{{ asset('assets/images/uploads/2020/05/gallery-car-image-8-min.jpeg')}}" /></a>
+                              src="{{ asset('assets/Photos/CFAO/17.jpg')}}" /></a>
                         </div>
                         <div class="gallery-item-slider "><a
                             href="{{ asset('assets/images/uploads/2020/05/gallery-car-image-5-min.jpeg')}}"><img
