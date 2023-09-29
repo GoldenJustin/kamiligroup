@@ -7,11 +7,11 @@
                   <div class="wpb_wrapper">
                     <div class="fl-vc-custom-title-container text-center custom-title">
                       <div class="custom-title-content-wrapper">
-                        <div class="fl-subtitle-vc fl-font-style-semi-bolt vc-custom-sub-title">DESIGN AND
-                          BUILD</div>
+                        <!--<div class="fl-subtitle-vc fl-font-style-semi-bolt vc-custom-sub-title">DESIGN AND-->
+                        <!--  BUILD</div>-->
                         <h2
                           class="fl-title-vc vc-custom-title fl-font-style-bolt fl-title-responsive-64dc649bef9b5-656 fl-vc--responsive">
-                          Our <span class="fl-primary-color">Projects</span></h2>
+                           <span class="fl-primary-color">Our Projects</span></h2>
                       </div>
                     </div>
                     <div class="fl-vc-responsive--gap cf fl-responsive-gap-64dc649bef9fa-4533 fl-vc--responsive"
@@ -234,7 +234,7 @@
                               </h6>
                               <div class="auto-grid-list-content">
                                 <ul class="list-grid--info">
-                                  <li class="list-grid-item fl-font-style-regular"> Lumumba, Dar es Salaam</li>
+                                  <li class="list-grid-item fl-font-style-regular"><br><br> Lumumba, Dar es Salaam</li>
 
                                 </ul>
                               </div>
@@ -256,7 +256,7 @@
                               <div class="image-grid-mask"></div>
                               <a class="auto-link-image-link" href="{{ url('TPDC')}}"></a>
 
-                              <img src="{{ asset('assets/Photos/TPDC/1.jpg')}}"
+                              <img src="{{ asset('assets/Photos/TPDC/3.jpg')}}"
                                 class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" />
                             </div>
                             <div class="bottom-content-wrap">

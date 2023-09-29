@@ -3,37 +3,41 @@
 @section('content')
 
 
+<div
+class="vc_row wpb_row vc_row-fluid vc_custom_1602471563695 fl-helping-row-responsive-64dc649bef746-5295">
+<div class="wpb_column vc_column_container vc_col-sm-12">
+  <div class=" vc_column-inner  ">
+    <div class="wpb_wrapper">
+      <div class="fl-vc-custom-title-container text-center custom-title">
+        <div class="custom-title-content-wrapper">
+          <!--<div class="fl-subtitle-vc fl-font-style-semi-bolt vc-custom-sub-title">DESIGN AND-->
+          <!--  BUILD</div>-->
+          <h2
+            class="fl-title-vc vc-custom-title fl-font-style-bolt fl-title-responsive-64dc649bef9b5-656 fl-vc--responsive">
+             <span class="fl-primary-color">Contact Us</span></h2>
+        </div>
+      </div>
+      <div class="fl-vc-responsive--gap cf fl-responsive-gap-64dc649bef9fa-4533 fl-vc--responsive"
+        data-responsive-target='fl-responsive-gap-64dc649bef9fa-4533'
+        data-responsive-param='{"height":"mobile:15px;"}' style=height:25px;></div>
+      <div class="fl-resent-cars-vc">
 
+        <div class="resent-cars-container fl-animated-item-velocity" data-animate-type="slideRightIn"
+          data-item-for-animated=".resent-car-item">
+  
+         
+         
+        </div>
 
-<div class="fl-page-heading" style="background-image: url(assets/images/uploads/2019/06/page-heading-image.jpg); background-size: cover;">
-  <div class="container">
-    <div class="row">
-      <div class="fl--page-header-content col">
-        
+        <div class="cf"></div>
+      
       </div>
     </div>
   </div>
 </div>
-
-
-
-
-
-<!--Main Start-->
-<div class="fl_main">
-  <div class="fl-page-padding top"></div>
-  <!--Main content Start-->
-  <div class="fl_content_story container">
-    <!--Sidebar End-->
-    <div class="fl_content page-template content">
-      <div class="fl-content-wrapper single-page-wrapper">
-        <!--Content Start-->
-        <div class="cf post-17543 page type-page status-publish hentry pmpro-has-access" id="post-17543"
-          data-post-id="17543">
-
-          <div class="fl_content_story fl-story-page-inner cf">
-            <div class="inner_content cf">
-              <div class="fl-content">
+</div>
+                
+                
                 <section class="wpb-content-wrapper">
                   <div class="vc_row wpb_row vc_row-fluid vc_custom_1589122726471">
                     <div data-animate-type="slideRightIn"
@@ -192,26 +196,10 @@
                     </div>
                   </div>
                 </section>
-              </div>
-            </div>
-          </div>
-
-
-        </div><!-- #post-17543 -->
-
-        <!--Content End-->
-        <!--Comment Start-->
-        <!--Comment End-->
-      </div>
-    </div>
-  </div>
-  <!--Main content End-->
+       
 
   <!--Padding bottom Start-->
   <div class="fl-page-padding bottom"></div>
-  <!--Padding bottom End-->
-
-</div>
-<!--Main End-->
+  
 
 @endsection

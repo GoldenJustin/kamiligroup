@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('content')
 <div data-vc-full-width="true" data-vc-full-width-init="false"
-              class="vc_row wpb_row vc_row-fluid vc_custom_1602471155325 fl-helping-row-responsive-64dc649beb6cd-7106 bg-light-color">
+class="vc_row wpb_row vc_row-fluid vc_custom_1602471563695 bg-light-color fl-helping-row-responsive-64dc649bef746-5295">
               <div data-animate-type="slideUpIn"
                 class="wpb_column vc_column_container vc_col-sm-12 fl-animated-item-velocity">
                 <div class=" vc_column-inner  ">
@@ -9,11 +9,10 @@
                     <div class="fl-vc-custom-title-container fl-animated-item-velocity text-center custom-title"
                       data-animate-type="slideUpIn">
                       <div class="custom-title-content-wrapper">
-                        <div class="fl-subtitle-vc fl-font-style-semi-bolt vc-custom-sub-title">DESIGN AND
-                          BUILD</div>
+                        
                         <h2
                           class="fl-title-vc vc-custom-title fl-font-style-bolt fl-title-responsive-64dc649bebc45-2227 fl-vc--responsive">
-                          Services We Offer</span></h2>
+                          <span class="fl-primary-color">Our Services</span></h2></h2>
                       </div>
                     </div>
                     <div class="fl-vc-responsive--gap cf fl-responsive-gap-64dc649bebcb5-4918 fl-vc--responsive"
@@ -85,14 +84,7 @@
                               </div>
                             </div>
                           </li>
-                          <li class="tab-link-item custom-1692165275-567640958-8" data-tab="fl-1692165275-567640958-8">
-                            <div class="tab-link-content ">
-                              <div class="inner-content"><i class="tabs-icon fas fa-bed"></i>
-                                <div class="tab-title-content fl-font-style-semi-bolt">
-                                  Furniture and Carpet Sale</div>
-                              </div>
-                            </div>
-                          </li>
+                          
                           
                         </ul>
                         <div class="tab-content col-lg-12">
@@ -144,20 +136,7 @@
                                         building processes.</p>
                                     </div>
                                     <div class="fl-vc-responsive--gap cf" style=height:10px;></div>
-                                    <div class="fl-list">
-                                      <ul class="fl-list-ul">
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Exterior Design
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Interior Design</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Landscaping</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Gardening
-                                        </li>
-                                      </ul>
-                                    </div>
+                                    
                                   </div>
                                 </div>
                               </div>
@@ -215,20 +194,7 @@
                                         red tape and leave all the hassles to us.</p>
                                     </div>
                                     <div class="fl-vc-responsive--gap cf" style=height:10px;></div>
-                                    <div class="fl-list">
-                                      <ul class="fl-list-ul">
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Experienced Team</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Perfect Buildings</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Uniqueness
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Reliable
-                                        </li>
-                                      </ul>
-                                    </div>
+                                    
                                   </div>
                                 </div>
                               </div>
@@ -244,7 +210,7 @@
                                       <div class="wpb_wrapper vc_figure">
                                         <div class="vc_single_image-wrapper">
                                           <img width="540" height="320"
-                                            src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-4-min.jpg')}}"
+                                            src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-2-min.jpg')}}"
                                             class="vc_single_image-img attachment-full" alt="" decoding="async"
                                             loading="lazy" title="Tabs-image-style-two-4-min" />
                                           {{--
@@ -284,20 +250,7 @@
                                         technology integration</p>
                                     </div>
                                     <div class="fl-vc-responsive--gap cf" style=height:10px;></div>
-                                    <div class="fl-list">
-                                      <ul class="fl-list-ul">
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Smart Thinking
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Proper Set up
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Timeline</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Approval</li>
-                                      </ul>
-                                    </div>
+                                    
                                   </div>
                                 </div>
                               </div>
@@ -312,7 +265,7 @@
                                     <div class="    wpb_single_image vc_align_left ">
                                       <div class="wpb_wrapper vc_figure">
                                         <div class="vc_single_image-wrapper     "><img width="540" height="320"
-                                            src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-3-min.jpeg')}}"
+                                            src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-3-min.png')}}"
                                             class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy"
                                             title="Tabs-image-style-two-2-min" {{--
                                             srcset="dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min.jpg 540w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min-300x178.jpg 300w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min-500x296.jpg 500w"
@@ -343,20 +296,7 @@
                                         the art of furnishing with convenience and expertise.</p>
                                     </div>
                                     <div class="fl-vc-responsive--gap cf" style=height:10px;></div>
-                                    <div class="fl-list">
-                                      <ul class="fl-list-ul">
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Prioritizing Quality</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Smooth Furniture</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Originality
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Natural Materials
-                                        </li>
-                                      </ul>
-                                    </div>
+                                    
                                   </div>
                                 </div>
                               </div>
@@ -371,7 +311,7 @@
                                     <div class="    wpb_single_image vc_align_left ">
                                       <div class="wpb_wrapper vc_figure">
                                         <div class="vc_single_image-wrapper     "><img width="540" height="320"
-                                            src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-3-min.jpeg')}}"
+                                            src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-4-min.jpg')}}"
                                             class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy"
                                             title="Tabs-image-style-two-2-min" {{--
                                             srcset="dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min.jpg 540w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min-300x178.jpg 300w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-2-min-500x296.jpg 500w"
@@ -404,20 +344,7 @@
                                         we do on the aesthetic</p>
                                     </div>
                                     <div class="fl-vc-responsive--gap cf" style=height:10px;></div>
-                                    <div class="fl-list">
-                                      <ul class="fl-list-ul">
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Prioritizing Quality</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Smooth Furniture</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Originality
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Natural Materials
-                                        </li>
-                                      </ul>
-                                    </div>
+                                    
                                   </div>
                                 </div>
                               </div>
@@ -432,7 +359,7 @@
                                     <div class="    wpb_single_image vc_align_left ">
                                       <div class="wpb_wrapper vc_figure">
                                         <div class="vc_single_image-wrapper     "><img width="540" height="320"
-                                            src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-5-min.jpg')}}"
+                                            src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-5-min.jpeg')}}"
                                             class="vc_single_image-img attachment-full" alt="" decoding="async"
                                             loading="lazy" title="Tabs-image-style-two-5-min"
                                             {{-- srcset="dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min.jpg 540w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min-300x178.jpg 300w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min-500x296.jpg 500w"
@@ -465,21 +392,7 @@
                                       <p>Our levels goes beyond thinking of modern designs and timely</p>
                                     </div>
                                     <div class="fl-vc-responsive--gap cf" style=height:10px;></div>
-                                    <div class="fl-list">
-                                      <ul class="fl-list-ul">
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Experienced Team</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i> Working Passion
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Activeness
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Longer living products
-                                        </li>
-                                      </ul>
-                                    </div>
+                                    
                                   </div>
                                 </div>
                               </div>
@@ -494,7 +407,7 @@
                                     <div class="    wpb_single_image vc_align_left ">
                                       <div class="wpb_wrapper vc_figure">
                                         <div class="vc_single_image-wrapper     "><img width="540" height="320"
-                                            src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-5-min.jpg')}}"
+                                            src="{{ asset('assets/images/uploads/2020/08/Tabs-image-style-two-6-min.jpeg')}}"
                                             class="vc_single_image-img attachment-full" alt="" decoding="async"
                                             loading="lazy" title="Tabs-image-style-two-5-min"
                                             {{-- srcset="dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min.jpg 540w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min-300x178.jpg 300w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min-500x296.jpg 500w"
@@ -527,21 +440,7 @@
                                       <p>We make the Impossible dream into life Applying best and trending technology</p>
                                     </div>
                                     <div class="fl-vc-responsive--gap cf" style=height:10px;></div>
-                                    <div class="fl-list">
-                                      <ul class="fl-list-ul">
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Experienced Team</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i> Working Passion
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Activeness
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Longer living products
-                                        </li>
-                                      </ul>
-                                    </div>
+                                   
                                   </div>
                                 </div>
                               </div>
@@ -556,7 +455,7 @@
                                     <div class="    wpb_single_image vc_align_left ">
                                       <div class="wpb_wrapper vc_figure">
                                         <div class="vc_single_image-wrapper     "><img width="540" height="320"
-                                            src="{{ asset('assets/Photos/Machine-Hire/machine-hire-1.jpeg')}}"
+                                            src="{{ asset('assets/Photos/Machine-Hire/30.jpg')}}"
                                             class="vc_single_image-img attachment-full" alt="" decoding="async"
                                             loading="lazy" title="Tabs-image-style-two-5-min"
                                             {{-- srcset="dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min.jpg 540w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min-300x178.jpg 300w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min-500x296.jpg 500w"
@@ -589,88 +488,13 @@
                                       <p>We make the Impossible dream into life Applying best and trending technology</p>
                                     </div>
                                     <div class="fl-vc-responsive--gap cf" style=height:10px;></div>
-                                    <div class="fl-list">
-                                      <ul class="fl-list-ul">
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Quality Machines</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i> Efficient
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Economical
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Affordable Charges
-                                        </li>
-                                      </ul>
-                                    </div>
+                                    
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                          <div class="tab-pane fl-1692165275-567640958-8 ">
-                            <div class="fl-vc-responsive--gap cf" style=height:60px;></div>
-                            <div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex">
-                              <div class="wpb_column vc_column_container vc_col-sm-6">
-                                <div class=" vc_column-inner ">
-                                  <div class="wpb_wrapper">
-                                    <div class="    wpb_single_image vc_align_left ">
-                                      <div class="wpb_wrapper vc_figure">
-                                        <div class="vc_single_image-wrapper     "><img width="540" height="320"
-                                            src="{{ asset('assets/Photos/Furniture-and-Carpet-Sale/furniture-1.jpeg')}}"
-                                            class="vc_single_image-img attachment-full" alt="" decoding="async"
-                                            loading="lazy" title="Tabs-image-style-two-5-min"
-                                            {{-- srcset="dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min.jpg 540w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min-300x178.jpg 300w, dealer/wp-content/uploads/2020/08/Tabs-image-style-two-5-min-500x296.jpg 500w"
-                                            sizes="(max-width: 540px) 100vw, 540px"  --}}
-                                            /></div>
-                                      </div>
-                                    </div>
-                                    <div
-                                      class="fl-vc-responsive--gap cf fl-responsive-gap-64dc649bef202-2549 fl-vc--responsive"
-                                      data-responsive-target='fl-responsive-gap-64dc649bef202-2549'
-                                      data-responsive-param='{"height":"tablet:20px;"}' style=height:0px;>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="wpb_column vc_column_container vc_col-sm-6">
-                                <div class=" vc_column-inner ">
-                                  <div class="wpb_wrapper">
-                                    <div class="fl-vc-custom-title-container text-left">
-                                      <h2
-                                        class="fl-title-vc vc-default-title fl-font-style-bolt fl-custom-title-64dc649bef332-5759">
-                                        Furniture and Carpet Sale</h2>
-                                    </div>
-                                    <div class="fl_custom_text__block fl-custom-text-64dc649bef37b-3515">
-                                      <p>Kamili Group offers a wide range of civil and structural
-                                        engineering construction ranging from
-                                        steel structures erections, reinforced concrete
-                                        structures, paving blocks and associated drainage
-                                        structures.</p>
-                                      <p>We make the Impossible dream into life Applying best and trending technology</p>
-                                    </div>
-                                    <div class="fl-vc-responsive--gap cf" style=height:10px;></div>
-                                    <div class="fl-list">
-                                      <ul class="fl-list-ul">
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Carpet of Customers Choice</li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Variety of Designs
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Quality Furnitures
-                                        </li>
-                                        <li class="fl-list-li fl-font-style-bolt-two"><i
-                                            class="fa fa-check fl-primary-color"></i>Accurate Delivery Time
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                         
                         </div>
                       </div>
                     </div>

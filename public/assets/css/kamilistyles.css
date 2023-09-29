@@ -493,12 +493,12 @@ body a.youzify-settings-widget {
 
 .fl-secondary-color,
 .fl-secondary-hv-color:hover {
-  color: #1450A3;
+  color: #272c38;
 }
 
 .fl-secondary-bg,
 .fl-secondary-hv-bg:hover {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .fl-light-color,
@@ -513,12 +513,12 @@ body a.youzify-settings-widget {
 
 .fl-dark-color,
 .fl-dark-hv-color:hover {
-  color: #1450A3;
+  color: #272c38;
 }
 
 .fl-dark-bg,
 .fl-dark-hv-bg:hover {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .fl-theme-border-color,
@@ -566,11 +566,11 @@ hr,
 }
 
 .fl-top-header-content .info-container:after {
-  border-color: #1450A3 #1450A3 transparent transparent;
+  border-color: #272c38 #272c38 transparent transparent;
 }
 
 .fl-top-header-content {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .fl-header--navigation .fl-bottom-header-content .fl-navigation-container .header-contact i {
@@ -582,7 +582,7 @@ hr,
 }
 
 .fl-top-header-content .info-container .right-top-header-content .header-btn:after {
-  background-color: #00008B
+  background-color: #2c2f3e
 }
 
 .fl-header--navigation .fl-bottom-header-content .fl-navigation-container .sell-car-wrap div a {
@@ -590,7 +590,7 @@ hr,
 }
 
 .fl-header--navigation .fl-bottom-header-content .fl-navigation-container .sell-car-wrap div a:hover {
-  color: #1450A3;
+  color: #272c38;
 }
 
 .fl-vc-counter-wrapper .fl-counter-wrapper-inner {
@@ -598,7 +598,7 @@ hr,
 }
 
 .fl-vc-counter-wrapper .fl-counter-wrapper-inner:after {
-  border-color: transparent transparent #1450A3 #1450A3;
+  border-color: transparent transparent #272c38 #272c38;
 }
 
 .post-archive-wrapper .fl-post-item .post-top-content .post-date {
@@ -606,7 +606,7 @@ hr,
 }
 
 .post-archive-wrapper .fl-post-item .post-bottom-content .post-btn-read-more-info .post-link:before {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .post-archive-wrapper .fl-post-item .post-bottom-content .post-btn-read-more-info .post-link:after {
@@ -634,7 +634,7 @@ blockquote {
 }
 
 .single-post-wrapper .post-tags-content a {
-  color: #1450A3
+  color: #272c38
 }
 
 .single-post-wrapper .post-tags-content a:hover {
@@ -656,7 +656,7 @@ blockquote {
 .single-page-wrapper .wp-block-search button:hover,
 .post-inner_content .wp-block-search button:hover,
 .comment-moderation .wp-block-search button:hover {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .single-page-wrapper .wp-block-tag-cloud a,
@@ -678,11 +678,11 @@ blockquote {
 }
 
 .fl-page-heading {
-  background-color: #00008B;
+  background-color: #2c2f3e;
 }
 
 .fl-default-pagination .page-numbers {
-  color: #1450A3;
+  color: #272c38;
 }
 
 .fl-default-pagination .page-numbers.current,
@@ -700,7 +700,7 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment--reply a {
-  color: #1450A3;
+  color: #272c38;
 }
 
 .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment--reply a:hover {
@@ -708,7 +708,7 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .comment-reply-title #cancel-comment-reply-link {
-  color: #1450A3
+  color: #272c38
 }
 
 .comment-reply-title #cancel-comment-reply-link:hover {
@@ -716,7 +716,7 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .comments-container .comments-list .fl-comment .comment-container .comment-meta .comments--reply-wrapper .comment-author-name {
-  color: #1450A3
+  color: #272c38
 }
 
 .fl-button.primary-button:before {
@@ -724,15 +724,15 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .fl-button.primary-button:after {
-  background-color: #1450A3
+  background-color: #272c38
 }
 
 .fl-button.primary-button.dark-hover-bg-button:after {
-  background-color: #00008B
+  background-color: #2c2f3e
 }
 
 .fl-button.secondary-button:before {
-  background-color: #1450A3
+  background-color: #272c38
 }
 
 .fl-button.secondary-button:after {
@@ -742,7 +742,7 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 #pix-sorting .sorting__inner .sorting__item.view-by a:hover,
 #pix-sorting .sorting__inner .sorting__item.view-by a.active {
   background-color: #f1f5fa;
-  color: #1450A3;
+  color: #272c38;
 }
 
 .card-auto-label {
@@ -766,16 +766,16 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid.dark-style .bottom-content-wrap {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid .entry-auto-grid-wrap .top-content-wrap .compare-car-wrap .add-to-compare .add-cmpr,
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid .entry-auto-grid-wrap .top-content-wrap .favorite-car-wrap a span.add-fvrt {
-  color: #1450A3;
+  color: #272c38;
 }
 
 .pix-dynamic-content #pixad-listing.grid .post-auto-grid .entry-auto-grid-wrap .top-content-wrap .image-grid-mask {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .pix-dynamic-content #pixad-listing.list .post-auto-list .post-entry-content .left-car-content .car-label-list {
@@ -783,7 +783,7 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .pix-dynamic-content #pixad-listing.list .post-auto-list .post-entry-content .left-car-content .favorite-car-wrap a span.add-fvrt {
-  color: #1450A3;
+  color: #272c38;
 }
 
 .pix-dynamic-content #pixad-listing.list .post-auto-list .post-entry-content .left-car-content .favorite-car-wrap a span.add-fvrt:hover {
@@ -835,7 +835,7 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .sidebar .dealer-info .social-info ul li a {
-  color: #1450A3;
+  color: #272c38;
 }
 
 .b-submit__aside-step-inner-info h4 {
@@ -852,7 +852,7 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .sidebar .widget .widget-title {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .sidebar .widget .widget-title:after {
@@ -861,7 +861,7 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .sidebar .widget a {
-  color: #1450A3;
+  color: #272c38;
 }
 
 .sidebar .widget a:hover {
@@ -897,7 +897,7 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .sidebar-title-content {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .sidebar.cars-sidebar .widget.pixad-filter .list-categories .list-categories__item input[type=checkbox]:checked+label {
@@ -913,11 +913,11 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .sidebar .widget_calendar .calendar_wrap #wp-calendar tbody tr td a:hover:before {
-  background-color: #1450A3 !important;
+  background-color: #272c38 !important;
 }
 
 .calendar-wrap .fc-widget-header th {
-  background-color: #1450A3 !important;
+  background-color: #272c38 !important;
 }
 
 .sidebar .dealer-info .dealer-bottom-info .phone-info .right .phone-text:hover {
@@ -929,7 +929,7 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 .sidebar .dealer-info .dealer-top-info {
-  background-color: #1450A3
+  background-color: #272c38
 }
 
 .sidebar .auto-price-info .bottom-info {
@@ -937,11 +937,11 @@ form.fl-comment-form .comment-form-cookies-consent input[type=checkbox]:checked:
 }
 
 footer {
-  background-color: #00008B;
+  background-color: #2c2f3e;
 }
 
 footer .top-content-footer .footer-social a {
-  background-color: #1450A3
+  background-color: #272c38
 }
 
 footer .top-content-footer .footer-social a:hover {
@@ -957,11 +957,11 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .widget_fl_theme_helper_wmpl_mailchimp_footer .mailchimp-footer-form .form-btn button:after {
-  background-color: #1450A3
+  background-color: #272c38
 }
 
 .vc_row.bg-dark-color {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .vc_row.bg-light-color {
@@ -969,11 +969,11 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-vc-icon-box .icon-box-style-one {
-  color: #1450A3
+  color: #272c38
 }
 
 .fl-vc-icon-box .icon-box-style-two {
-  color: #1450A3
+  color: #272c38
 }
 
 .fl-vc-icon-box .icon-box-style-two:after {
@@ -982,7 +982,7 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-vc-icon-box .icon-box-style-two.primary-icon-box-style {
-  background-color: #1450A3
+  background-color: #272c38
 }
 
 .fl-vc-contact-icon-box .contact-icon-box-container {
@@ -994,7 +994,7 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-vc-contact-icon-box .contact-icon-box-container.secondary-icon-box-style .top-content {
-  background-color: #1450A3
+  background-color: #272c38
 }
 
 .fl-vc-contact-icon-box .contact-icon-box-container .bottom-content .icon-bottom-content a:hover {
@@ -1002,15 +1002,15 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-vc-contact-icon-box .contact-icon-box-container:after {
-  border-color: transparent transparent #1450A3 #1450A3;
+  border-color: transparent transparent #272c38 #272c38;
 }
 
 .fl-team-content-vc .fl-team-container .team-top-content .team-top-container-mask {
-  background-color: #1450A3
+  background-color: #272c38
 }
 
 .fl-team-content-vc .fl-team-container .team-bottom-content .bottom-inner-content {
-  background-color: #1450A3
+  background-color: #272c38
 }
 
 .fl-team-content-vc .fl-team-container:hover .team-bottom-content .bottom-inner-content {
@@ -1019,7 +1019,7 @@ footer .top-content-footer .footer-social a:hover {
 
 .fl-team-content-vc .fl-team-container.team-style-one .team-top-content .team-social li a i,
 .fl-team-content-vc .fl-team-container.team-style-two .team-top-content .entry-top-content .team-social li a i {
-  color: #1450A3
+  color: #272c38
 }
 
 .fl-team-content-vc .fl-team-container .team-top-content .entry-top-content .team-social li a:hover i,
@@ -1032,7 +1032,7 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-fancy-text-content-vc .fl-fancy-text-container {
-  color: #1450A3
+  color: #272c38
 }
 
 .fl-fancy-text-content-vc .fl-fancy-text-container .fancy-text-item-content .top-content .fancy-text-number:after {
@@ -1040,7 +1040,7 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-fancy-text-content-vc .fl-fancy-text-container .fancy-text-item-content .top-content:before {
-  background-image: linear-gradient(to right, #1450A3 40%, rgba(255, 255, 255, 0) 0);
+  background-image: linear-gradient(to right, #272c38 40%, rgba(255, 255, 255, 0) 0);
 }
 
 .fl-vc-testimonial-slider-wrapper .testimonial-slider.testimonial-style-one .slick-dots li.slick-active button,
@@ -1068,7 +1068,7 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-vc-tabs.tab-style-one .tabs-entry-content .nav-tabs li {
-  color: #1450A3
+  color: #272c38
 }
 
 .fl-vc-tabs.tab-style-two .tabs-entry-content .nav-tabs li.active {
@@ -1076,7 +1076,7 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-vc-tabs.tab-style-two .tabs-entry-content .nav-tabs li {
-  color: #1450A3
+  color: #272c38
 }
 
 .fl-banner-content-vc .fl-banner-container.banner-style-one .banner-entry-content .banner-label {
@@ -1105,16 +1105,16 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .top-content-wrap .image-grid-mask {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .bottom-content-wrap {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .top-content-wrap .compare-car-wrap .add-to-compare .add-cmpr,
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .top-content-wrap .favorite-car-wrap a span.add-fvrt {
-  color: #1450A3;
+  color: #272c38;
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item .entry-auto-grid-wrap .top-content-wrap .favorite-car-wrap a.active-add-favorite .rem-fvrt {
@@ -1138,7 +1138,7 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-resent-cars-vc .resent-cars-container .resent-car-item:hover .entry-auto-grid-wrap .bottom-content-wrap .title-content .card-auto-label {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .fl-phone-number-wrapper-vc .bottom-content i {
@@ -1163,11 +1163,11 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-cars-slider-wrap-vc .cars-slider .slider-car-item .top-content-wrap .image-grid-mask {
-  background-color: #1450A3 !important;
+  background-color: #272c38 !important;
 }
 
 .fl-cars-slider-wrap-vc.car-slider-style-two-wrap .cars-slider .slider-car-item:hover .bottom-content-wrap .title-content .card-auto-label {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .fl-custom-banner-content-vc .fl-custom-banner-container.primary-custom-banner-style .custom-banner-entry-content {
@@ -1175,15 +1175,15 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .fl-custom-banner-content-vc .fl-custom-banner-container.secondary-custom-banner-style .custom-banner-entry-content {
-  background-color: #1450A3
+  background-color: #272c38
 }
 
 .slide-one-content .rev-slide-inner-content:after {
-  background: #1450A3;
+  background: #272c38;
 }
 
 .slide-one-content .rev-slide-inner-content .slide-bottom-content .slide-button-wrap .slider-decor {
-  background: #1450A3;
+  background: #272c38;
 }
 
 .slide-one-content .rev-slide-inner-content .slide-bottom-content .slide-button-wrap .button-slider-link:hover {
@@ -1195,7 +1195,7 @@ footer .top-content-footer .footer-social a:hover {
 }
 
 .slide-two-content .rev-slide-inner-content .slide-bottom-content .slide-button-wrap .slider-decor {
-  background: #1450A3;
+  background: #272c38;
 }
 
 .fl-pricing-table .title-wrap .pricing-table-sub-title {
@@ -1221,7 +1221,7 @@ samp {
 }
 
 .sidebar.cars-sidebar .widget.pixad-filter .noUi-origin+.noUi-origin {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .breadcrumbs-heading a:hover {
@@ -1229,7 +1229,7 @@ samp {
 }
 
 .fl-vc-vehicle-search .vc-auto-search {
-  border-color: #1450A3;
+  border-color: #272c38;
 }
 
 .fl-home-page-posts-content-vc .home-page-post-container .blog-post-home-page .post-entry-content .bottom-link-post-content .left-content .post-link {
@@ -1241,19 +1241,19 @@ samp {
 }
 
 .fl-home-page-posts-content-vc .home-page-post-container .blog-post-home-page .post-entry-content .bottom-link-post-content .left-content .post-link:hover {
-  color: #1450A3;
+  color: #272c38;
 }
 
 .fl-home-page-posts-content-vc .home-page-post-container .blog-post-home-page .post-entry-content .bottom-link-post-content .left-content .post-link:after {
-  background-color: #1450A3 !important;
+  background-color: #272c38 !important;
 }
 
 .rev-slider-mobile-bg {
-  background-color: #1450A3 !important;
+  background-color: #272c38 !important;
 }
 
 .wp-block-button__link {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .wp-block-button__link:hover {
@@ -1271,7 +1271,7 @@ wp-block-button.is-style-outline .wp-block-button__link:hover {
 }
 
 .sidebar .booking_car_info .booking_form .submit:after {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .woocommerce div.product .price .woocommerce-Price-amount,
@@ -1340,7 +1340,7 @@ form.checkout #order_review #payment .place-order button:hover,
 }
 
 .shop-archive-item .fl-woo-item-inner-content .fl-woo-item-bottom-content .fl--woo-add-to-cart-wrap .fl--add-to-cart-btn a {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .shop-archive-item .fl-woo-item-inner-content .yith-wcwl-add-to-wishlist a.add_to_wishlist:hover:before {
@@ -1352,7 +1352,7 @@ form.checkout #order_review #payment .place-order button:hover,
 }
 
 .woocommerce div.product form.cart button:hover:after {
-  background-color: #1450A3;
+  background-color: #272c38;
 }
 
 .single-product .woocommerce-message a.button:hover,
@@ -1361,16 +1361,16 @@ form.checkout #order_review #payment .place-order button:hover,
 .woocommerce-info a:hover,
 .woocommerce-message a.button:hover,
 .woocommerce-message a:hover {
-  background-color: #1450A3 !important;
+  background-color: #272c38 !important;
 }
 
 .woocommerce table.shop_table tbody tr td.actions .coupon button:hover,
 .woocommerce table.shop_table tbody tr td.actions .update--cart-content button.update_cart:hover {
-  background-color: #1450A3 !important;
+  background-color: #272c38 !important;
 }
 
 .woocommerce .cart-collaterals .cart_totals a.checkout-button {
-  background-color: #1450A3 !important;
+  background-color: #272c38 !important;
 }
 
 .woocommerce .cart-collaterals .cart_totals a.checkout-button:hover {
@@ -1382,16 +1382,16 @@ form.checkout #order_review #payment .place-order button:hover,
 }
 
 .woocommerce-info .showcoupon:hover {
-  background-color: #1450A3;
+  background-color: #272c38;
   color: #ffffff !important;
 }
 
 .woocommerce form.checkout_coupon button:hover {
-  background-color: #1450A3 !important
+  background-color: #272c38 !important
 }
 
 form.checkout #order_review #payment .place-order button:hover {
-  background-color: #1450A3 !important;
+  background-color: #272c38 !important;
 }
 
 .pmpro_login_wrap form .login-submit input {
@@ -1399,7 +1399,7 @@ form.checkout #order_review #payment .place-order button:hover {
 }
 
 .pmpro_login_wrap form .login-submit input:hover {
-  background-color: #1450A3 !important;
+  background-color: #272c38 !important;
 }
 
 .fl-venders-author .fl-venders-author-posts .fl-venders-select li.active:before {
@@ -1428,7 +1428,7 @@ form.checkout #order_review #payment .place-order button:hover {
 .pmpro_actions_nav a:hover,
 .pmpro_btn:hover,
 .login-submit .button:hover {
-  background-color: #1450A3 !important;
+  background-color: #272c38 !important;
 }
 
 .booking_form:before {
@@ -1436,7 +1436,7 @@ form.checkout #order_review #payment .place-order button:hover {
 }
 
 .revus_booking_prices_contain_grid {
-  background-color: #1450A3 !important;
+  background-color: #272c38 !important;
   border-bottom: 1px solid rgba(221, 221, 221, 0.2);
 }
 
@@ -1551,7 +1551,7 @@ html .youzify-widget .youzify-widget-title,
   font-family: Montserrat;
   font-weight: 700;
   text-transform: none;
-  color: #1450A3;
+  color: #272c38;
 }
 
 .fl-font-style-regular {

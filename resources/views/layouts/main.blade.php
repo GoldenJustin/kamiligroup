@@ -10,10 +10,13 @@
 
 
   <meta name='robots' content='max-image-preview:large' />
+  
   <link rel='dns-prefetch' href='https://maps.googleapis.com/' />
   <link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
   <link rel="alternate" type="application/rss+xml" title="Revus &raquo; Feed" href="dealer/feed/index.html" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
   <link rel="stylesheet" href="{{ URL::to('assets/css/kamilistyles.css') }}">
   <link rel='stylesheet' id='wp-block-library-css'
     href="{{ URL::to('assets/css/dist/block-library/style.css?ver=6.1.3.css') }}" media='all' />
@@ -118,33 +121,7 @@
 
 
 
-  {{-- custom scripts --}}
-
-  {{-- <script src="{{ asset('assets/js/scriptone.js') }}"></script>
-  <script src="{{ asset('assets/js/scripttwo.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptthree.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptfour.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptfive.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptsix.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptseven.js') }}"></script>
-  <script src="{{ asset('assets/js/scripteight.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptnine.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptten.js') }}"></script>
-  <script src="{{ asset('assets/js/scripteleven.js') }}"></script>
-  <script src="{{ asset('assets/js/scripttwelve.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptthirteen.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptforteen.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptfifteen.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptsixteen.js') }}"></script>
-  <script src="{{ asset('assets/js/scriptseventeen.js') }}"></script>
-  <script src="{{ asset('assets/js/scripteighteen.js') }}"></script>
-  <script src="{{ asset('assets/js/scripttwenty.js') }}"></script>
-  <script src="{{ asset('assets/js/script21.js') }}"></script>
-  <script src="{{ asset('assets/js/script22.js') }}"></script>
-  <script src="{{ asset('assets/js/script23.js') }}"></script>
-  <script src="{{ asset('assets/js/script24.js') }}"></script>
-  <script src="{{ asset('assets/js/script25.js') }}"></script>
-  <script src="{{ asset('assets/js/script26.js') }}"></script> --}}
+  
   <script src="{{ asset('assets/js/jquery/jquery.js%3Fver=3.6.1') }}"></script>
   <script src="{{ asset('assets/js/jquery/jquery-migrate.js%3Fver=3.3.2') }}"></script>
   <script id='bp-confirm-js-extra'>
@@ -315,13 +292,13 @@
         
       
     </header>
-    <div class="header-padding"></div>
+    <div style="padding:20px;"></div>
     <!--Header End-->
 
 
     <!--Main Start-->
     <div class="fl_main">
-      @yield('photo')
+      {{-- @yield('photo') --}}
       <!--Main content Start-->
       <div class="fl_content_story container">
         

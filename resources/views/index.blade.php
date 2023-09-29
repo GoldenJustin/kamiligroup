@@ -1,15 +1,13 @@
 @extends('layouts.main')
 @section('content')
 @include('layouts.home-banner')
-@include('layouts.karibu')
 
 @include('layouts.client')
-@include('layouts.services')
+{{-- @include('layouts.services')
 @include('layouts.projects')
 @include('layouts.core-values')
 @include('layouts.decor-image')
-{{-- @include('layouts.team') --}}
-{{-- @include('layouts.review') --}}
+@include('layouts.team')
 @include('layouts.uniqueness')
-@include('layouts.gallery')
+@include('layouts.gallery') --}}
 @endsection

@@ -25,9 +25,9 @@
             <div class="custom-banner-entry-content"
               style="background-image: url({{ asset('assets/images/uploads/2020/05/banner-custom-bg-1-min.png') }});">
               <div class="banner-title fl-font-style-bolt">ARE YOU LOOKING TO<br />
-                BUILD A NEW HOUSE?</div>
+                START A NEW PROJECT?</div>
               <div class="banner-content"><a class="custom_banner-vc-link"
-                   title="Contacts">Build it with Kamili
+                   title="Contacts">Start it with Kamili
                   Group</a></div>
             </div>
           </div>
@@ -46,7 +46,7 @@
             <div class="custom-banner-entry-content"
               style="background-image: url({{ asset('assets/images/uploads/2020/05/banner-custom-bg-2-min.png') }});">
               <div class="banner-title fl-font-style-bolt">ARE YOU LOOKING TO<br />
-                PLAN FOR NEW BUILDING?</div>
+                PLAN A NEW BUILDING?</div>
               <div class="banner-content"><a class="custom_banner-vc-link"
                    title="Contacts">Get Started with us</a>
               </div>

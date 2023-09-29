@@ -6,11 +6,11 @@ class="vc_row wpb_row vc_row-fluid vc_custom_1604346079613 fl-helping-row-respon
       <div class="fl-vc-custom-title-container fl-animated-item-velocity text-center custom-title"
         data-animate-type="slideRightIn">
         <div class="custom-title-content-wrapper">
-          <div class="fl-subtitle-vc fl-font-style-semi-bolt vc-custom-sub-title">DESIGN AND
-            BUILD</div>
+          <!--<div class="fl-subtitle-vc fl-font-style-semi-bolt vc-custom-sub-title">DESIGN AND-->
+          <!--  BUILD</div>-->
           <h2
             class="fl-title-vc vc-custom-title fl-font-style-bolt fl-title-responsive-64dc649c04949-3829 fl-vc--responsive">
-            Real &amp; <span class="fl-primary-color">Kamili</span></h2>
+             <span class="fl-primary-color">Our Unique Selling Proposition</span></h2>
         </div>
       </div>
 
